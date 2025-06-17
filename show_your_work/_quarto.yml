@@ -2,11 +2,31 @@ project:
   type: website
 
 website:
-  title: "show_your_work"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
+  title: "Show Your Work - Tutorial"
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Getting Started"
+        contents:
+          - index.qmd
+          - getting-started.qmd
+      - section: "Core Concepts"
+        contents:
+          - concepts/fundamentals.qmd
+          - concepts/advanced.qmd
+      - section: "Practical Examples"
+        contents:
+          - examples/basic-example.qmd
+          - examples/complex-example.qmd
+      - section: "Best Practices"
+        contents:
+          - best-practices/guidelines.qmd
+          - best-practices/troubleshooting.qmd
+      - section: "Reference"
+        contents:
+          - reference/api.qmd
+          - reference/faq.qmd
       - about.qmd
 
 format:

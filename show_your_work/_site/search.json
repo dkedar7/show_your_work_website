@@ -1,0 +1,53 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to Show Your Work",
+    "section": "",
+    "text": "This comprehensive tutorial will guide you through the principles and practices of showing your work effectively. Whether you’re a student, researcher, or professional, learning to document and present your process is crucial for transparency, reproducibility, and collaboration.\n\n\nThroughout this tutorial, you’ll discover:\n\nCore principles of transparent work practices\nPractical techniques for documenting your process\nTools and methods for sharing your work effectively\nBest practices for collaboration and reproducibility\n\n\n\n\nThis tutorial is organized into several sections accessible through the sidebar:\n\n\nBegin here to understand the fundamental concepts and set up your environment.\n\n\n\nDive deeper into the theoretical foundations and key principles.\n\n\n\nSee real-world applications and hands-on demonstrations.\n\n\n\nLearn from common pitfalls and proven strategies.\n\n\n\nQuick access to APIs, FAQs, and additional resources.\n\n\n\n\nStart with the Getting Started section to begin your journey, or use the sidebar navigation to jump to any section that interests you.\n\nThis tutorial emphasizes learning by doing. Each section includes practical exercises and examples to help you apply what you learn.",
+    "crumbs": [
+      "Getting Started",
+      "Welcome to Show Your Work"
+    ]
+  },
+  {
+    "objectID": "index.html#what-youll-learn",
+    "href": "index.html#what-youll-learn",
+    "title": "Welcome to Show Your Work",
+    "section": "",
+    "text": "Throughout this tutorial, you’ll discover:\n\nCore principles of transparent work practices\nPractical techniques for documenting your process\nTools and methods for sharing your work effectively\nBest practices for collaboration and reproducibility",
+    "crumbs": [
+      "Getting Started",
+      "Welcome to Show Your Work"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use-this-tutorial",
+    "href": "index.html#how-to-use-this-tutorial",
+    "title": "Welcome to Show Your Work",
+    "section": "",
+    "text": "This tutorial is organized into several sections accessible through the sidebar:\n\n\nBegin here to understand the fundamental concepts and set up your environment.\n\n\n\nDive deeper into the theoretical foundations and key principles.\n\n\n\nSee real-world applications and hands-on demonstrations.\n\n\n\nLearn from common pitfalls and proven strategies.\n\n\n\nQuick access to APIs, FAQs, and additional resources.",
+    "crumbs": [
+      "Getting Started",
+      "Welcome to Show Your Work"
+    ]
+  },
+  {
+    "objectID": "index.html#ready-to-begin",
+    "href": "index.html#ready-to-begin",
+    "title": "Welcome to Show Your Work",
+    "section": "",
+    "text": "Start with the Getting Started section to begin your journey, or use the sidebar navigation to jump to any section that interests you.\n\nThis tutorial emphasizes learning by doing. Each section includes practical exercises and examples to help you apply what you learn.",
+    "crumbs": [
+      "Getting Started",
+      "Welcome to Show Your Work"
+    ]
+  }
+]

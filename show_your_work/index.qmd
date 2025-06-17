@@ -1,7 +1,43 @@
 ---
-title: "show_your_work"
+title: "Welcome to Show Your Work"
 ---
 
-This is a Quarto website.
+# Welcome to the Show Your Work Tutorial
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+This comprehensive tutorial will guide you through the principles and practices of showing your work effectively. Whether you're a student, researcher, or professional, learning to document and present your process is crucial for transparency, reproducibility, and collaboration.
+
+## What You'll Learn
+
+Throughout this tutorial, you'll discover:
+
+- **Core principles** of transparent work practices
+- **Practical techniques** for documenting your process
+- **Tools and methods** for sharing your work effectively
+- **Best practices** for collaboration and reproducibility
+
+## How to Use This Tutorial
+
+This tutorial is organized into several sections accessible through the sidebar:
+
+### Getting Started
+Begin here to understand the fundamental concepts and set up your environment.
+
+### Core Concepts
+Dive deeper into the theoretical foundations and key principles.
+
+### Practical Examples
+See real-world applications and hands-on demonstrations.
+
+### Best Practices
+Learn from common pitfalls and proven strategies.
+
+### Reference
+Quick access to APIs, FAQs, and additional resources.
+
+## Ready to Begin?
+
+Start with the [Getting Started](getting-started.qmd) section to begin your journey, or use the sidebar navigation to jump to any section that interests you.
+
+---
+
+*This tutorial emphasizes learning by doing. Each section includes practical exercises and examples to help you apply what you learn.*
