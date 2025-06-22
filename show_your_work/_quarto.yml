@@ -5,6 +5,8 @@ website:
   title: "Show Your Work - Tutorial"
   sidebar:
     style: "docked"
+    logo: assets/logo.png
+    favicon: assets/favicon.ico
     search: true
     contents:
       - section: "Getting Started"
