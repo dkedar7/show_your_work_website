@@ -10,7 +10,7 @@ website:
       - section: "Getting Started"
         contents:
           - index.qmd
-          - getting-started.qmd
+          - installation.qmd
       - section: "Core Concepts"
         contents:
           - concepts/fundamentals.qmd

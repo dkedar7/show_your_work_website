@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Show your work: Tutorial on building and hosting web applications – Show Your Work - Tutorial</title>
+<title>Installation – Show Your Work - Tutorial</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,41 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -116,7 +81,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Getting Started</a></li><li class="breadcrumb-item"><a href="./index.html">Show your work: Tutorial on building and hosting web applications</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Getting Started</a></li><li class="breadcrumb-item"><a href="./installation.html">Installation</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -152,13 +117,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Show your work: Tutorial on building and hosting web applications</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./installation.html" class="sidebar-item-text sidebar-link">
+  <a href="./installation.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Installation</span></a>
   </div>
 </li>
@@ -243,38 +208,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#welcome-to-the-tutorial" id="toc-welcome-to-the-tutorial" class="nav-link active" data-scroll-target="#welcome-to-the-tutorial">Welcome to the Tutorial!</a></li>
-  <li><a href="#what-youll-accomplish" id="toc-what-youll-accomplish" class="nav-link" data-scroll-target="#what-youll-accomplish">What You’ll Accomplish</a></li>
-  <li><a href="#why-this-matters" id="toc-why-this-matters" class="nav-link" data-scroll-target="#why-this-matters">Why This Matters</a></li>
-  <li><a href="#what-well-cover" id="toc-what-well-cover" class="nav-link" data-scroll-target="#what-well-cover">What We’ll Cover</a>
-  <ul class="collapse">
-  <li><a href="#framework-landscape" id="toc-framework-landscape" class="nav-link" data-scroll-target="#framework-landscape">Framework Landscape</a></li>
-  <li><a href="#fast-dash-deep-dive" id="toc-fast-dash-deep-dive" class="nav-link" data-scroll-target="#fast-dash-deep-dive">Fast Dash Deep Dive</a></li>
-  <li><a href="#real-world-applications" id="toc-real-world-applications" class="nav-link" data-scroll-target="#real-world-applications">Real-World Applications</a></li>
-  <li><a href="#deployment-strategies" id="toc-deployment-strategies" class="nav-link" data-scroll-target="#deployment-strategies">Deployment Strategies</a></li>
-  </ul></li>
-  <li><a href="#who-should-attend" id="toc-who-should-attend" class="nav-link" data-scroll-target="#who-should-attend">Who Should Attend</a></li>
-  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisites</a>
-  <ul class="collapse">
-  <li><a href="#required-installation" id="toc-required-installation" class="nav-link" data-scroll-target="#required-installation">Required Installation</a></li>
-  </ul></li>
-  <li><a href="#bring-your-own-data" id="toc-bring-your-own-data" class="nav-link" data-scroll-target="#bring-your-own-data">Bring Your Own Data</a></li>
-  <li><a href="#meet-your-instructor" id="toc-meet-your-instructor" class="nav-link" data-scroll-target="#meet-your-instructor">Meet Your Instructor</a></li>
-  <li><a href="#get-ready-to-show-your-work" id="toc-get-ready-to-show-your-work" class="nav-link" data-scroll-target="#get-ready-to-show-your-work">Get Ready to Show Your Work</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Getting Started</a></li><li class="breadcrumb-item"><a href="./index.html">Show your work: Tutorial on building and hosting web applications</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Getting Started</a></li><li class="breadcrumb-item"><a href="./installation.html">Installation</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Show your work: Tutorial on building and hosting web applications</h1>
+<h1 class="title">Installation</h1>
 </div>
 
 
@@ -291,119 +233,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p><strong>📅 July 8, 2024 | 08:00–12:00 (US/Pacific) | Ballroom C</strong></p>
-<section id="welcome-to-the-tutorial" class="level2">
-<h2 class="anchored" data-anchor-id="welcome-to-the-tutorial">Welcome to the Tutorial!</h2>
-<p>Transform your Python functions into interactive web applications and ensure your scientific work reaches the audience it deserves. In this hands-on session, you’ll learn to bridge the gap between analysis and presentation using modern, open-source tools—all without leaving the Python ecosystem.</p>
-</section>
-<section id="what-youll-accomplish" class="level2">
-<h2 class="anchored" data-anchor-id="what-youll-accomplish">What You’ll Accomplish</h2>
-<p>By the end of this 4-hour tutorial, you will have:</p>
-<ul>
-<li><strong>Built and deployed</strong> multiple interactive web applications</li>
-<li><strong>Created a personal portfolio</strong> showcasing your work</li>
-<li><strong>Mastered the decision process</strong> for choosing the right web framework</li>
-<li><strong>Gained practical experience</strong> with cutting-edge Python tools</li>
-<li><strong>Developed reproducible workflows</strong> you can apply to future projects</li>
-</ul>
-</section>
-<section id="why-this-matters" class="level2">
-<h2 class="anchored" data-anchor-id="why-this-matters">Why This Matters</h2>
-<p>Excellent science hidden in code repositories has zero impact. Many brilliant researchers struggle to showcase their work effectively, causing valuable insights to remain buried in technical documents and unused codebases. This tutorial solves that problem by teaching you to create engaging, accessible web applications that bring your analysis to life.</p>
-</section>
-<section id="what-well-cover" class="level2">
-<h2 class="anchored" data-anchor-id="what-well-cover">What We’ll Cover</h2>
-<section id="framework-landscape" class="level3">
-<h3 class="anchored" data-anchor-id="framework-landscape">Framework Landscape</h3>
-<p>Compare and contrast the leading Python web frameworks:</p>
-<ul>
-<li><strong>Dash</strong> - Enterprise-grade dashboards</li>
-<li><strong>Streamlit</strong> - Rapid prototyping</li>
-<li><strong>Gradio</strong> - Machine learning interfaces<br>
-</li>
-<li><strong>Shiny</strong> - Statistical applications</li>
-<li><strong>Solara</strong> - Reactive interfaces</li>
-<li><strong>Quarto</strong> - Document-driven apps</li>
-</ul>
-</section>
-<section id="fast-dash-deep-dive" class="level3">
-<h3 class="anchored" data-anchor-id="fast-dash-deep-dive">Fast Dash Deep Dive</h3>
-<p>Learn our open-source library designed specifically for scientific prototyping:</p>
-<ul>
-<li>Convert functions to web apps with minimal code</li>
-<li>Handle complex data visualization seamlessly</li>
-<li>Deploy professional-grade applications quickly</li>
-</ul>
-</section>
-<section id="real-world-applications" class="level3">
-<h3 class="anchored" data-anchor-id="real-world-applications">Real-World Applications</h3>
-<p>Work through practical examples including:</p>
-<ul>
-<li>Interactive data exploration dashboards</li>
-<li>Map-based environmental monitoring tools</li>
-<li>Multi-dataset integration interfaces</li>
-<li>Performance optimization techniques</li>
-</ul>
-</section>
-<section id="deployment-strategies" class="level3">
-<h3 class="anchored" data-anchor-id="deployment-strategies">Deployment Strategies</h3>
-<p>Master the full pipeline from development to production:</p>
-<ul>
-<li>Local development workflows</li>
-<li>Cloud hosting options</li>
-<li>Best practices for scientific applications</li>
-<li>Maintaining reproducibility at scale</li>
-</ul>
-</section>
-</section>
-<section id="who-should-attend" class="level2">
-<h2 class="anchored" data-anchor-id="who-should-attend">Who Should Attend</h2>
-<p>This tutorial is designed for data professionals who want to amplify the impact of their work:</p>
-<ul>
-<li><strong>Scientists and Researchers</strong> looking to make their analysis more accessible</li>
-<li><strong>Data Engineers</strong> building tools for scientific teams<br>
-</li>
-<li><strong>Analysts</strong> who want to move beyond static reports</li>
-<li><strong>Anyone</strong> with Python experience who values clear communication of technical work</li>
-</ul>
-</section>
-<section id="prerequisites" class="level2">
-<h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
-<p>Before the session, please ensure you have:</p>
-<ul>
-<li><strong>Python 3.8+</strong> installed on your system</li>
-<li><strong>Basic Python programming</strong> familiarity</li>
-<li><strong>Code editor or IDE</strong> of your choice</li>
-<li><strong>Git</strong> installed for accessing tutorial materials</li>
-</ul>
-<section id="required-installation" class="level3">
-<h3 class="anchored" data-anchor-id="required-installation">Required Installation</h3>
-<p>Run this command before the tutorial:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install fast-dash streamlit gradio</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-</section>
-<section id="bring-your-own-data" class="level2">
-<h2 class="anchored" data-anchor-id="bring-your-own-data">Bring Your Own Data</h2>
-<p>While we’ll provide example datasets and use cases, you’re encouraged to bring your own:</p>
-<ul>
-<li><strong>Datasets</strong> you’re currently analyzing</li>
-<li><strong>Functions</strong> you’d like to turn into web apps</li>
-<li><strong>Specific use cases</strong> from your domain</li>
-<li><strong>Visualization challenges</strong> you’re facing</li>
-</ul>
-</section>
-<section id="meet-your-instructor" class="level2">
-<h2 class="anchored" data-anchor-id="meet-your-instructor">Meet Your Instructor</h2>
-<p>Our teaching team brings over five years of experience building and deploying data solutions at major scientific organizations. We’ve seen firsthand how the right tools can transform complex analysis into compelling, accessible applications that drive real-world impact.</p>
-</section>
-<section id="get-ready-to-show-your-work" class="level2">
-<h2 class="anchored" data-anchor-id="get-ready-to-show-your-work">Get Ready to Show Your Work</h2>
-<p>Scientific communication shouldn’t require a computer science degree. With the right approach and tools, you can create professional web applications that make your research accessible, engaging, and impactful. Let’s turn your hidden insights into visible solutions.</p>
-<hr>
-<p><strong>Questions?</strong> Feel free to reach out during the session or connect with fellow participants. We’re here to ensure you leave with both the skills and confidence to showcase your scientific work effectively.</p>
+<p>Steps to install</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

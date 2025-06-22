@@ -4,50 +4,174 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "About this site",
+    "crumbs": [
+      "About"
+    ]
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome to Show Your Work",
+    "title": "Show your work: Tutorial on building and hosting web applications",
     "section": "",
-    "text": "This comprehensive tutorial will guide you through the principles and practices of showing your work effectively. Whether you’re a student, researcher, or professional, learning to document and present your process is crucial for transparency, reproducibility, and collaboration.\n\n\nThroughout this tutorial, you’ll discover:\n\nCore principles of transparent work practices\nPractical techniques for documenting your process\nTools and methods for sharing your work effectively\nBest practices for collaboration and reproducibility\n\n\n\n\nThis tutorial is organized into several sections accessible through the sidebar:\n\n\nBegin here to understand the fundamental concepts and set up your environment.\n\n\n\nDive deeper into the theoretical foundations and key principles.\n\n\n\nSee real-world applications and hands-on demonstrations.\n\n\n\nLearn from common pitfalls and proven strategies.\n\n\n\nQuick access to APIs, FAQs, and additional resources.\n\n\n\n\nStart with the Getting Started section to begin your journey, or use the sidebar navigation to jump to any section that interests you.\n\nThis tutorial emphasizes learning by doing. Each section includes practical exercises and examples to help you apply what you learn.",
+    "text": "📅 July 8, 2024 | 08:00–12:00 (US/Pacific) | Ballroom C",
     "crumbs": [
       "Getting Started",
-      "Welcome to Show Your Work"
+      "Show your work: Tutorial on building and hosting web applications"
     ]
   },
   {
     "objectID": "index.html#what-youll-learn",
     "href": "index.html#what-youll-learn",
-    "title": "Welcome to Show Your Work",
-    "section": "",
-    "text": "Throughout this tutorial, you’ll discover:\n\nCore principles of transparent work practices\nPractical techniques for documenting your process\nTools and methods for sharing your work effectively\nBest practices for collaboration and reproducibility",
+    "title": "Show your work: Tutorial on building and hosting web applications",
+    "section": "What You’ll Learn",
+    "text": "What You’ll Learn\nThroughout this tutorial, you’ll discover:\n\nCore principles of transparent work practices\nPractical techniques for documenting your process\nTools and methods for sharing your work effectively\nBest practices for collaboration and reproducibility",
     "crumbs": [
       "Getting Started",
-      "Welcome to Show Your Work"
+      "Show your work: Tutorial on building and hosting web applications"
     ]
   },
   {
     "objectID": "index.html#how-to-use-this-tutorial",
     "href": "index.html#how-to-use-this-tutorial",
-    "title": "Welcome to Show Your Work",
-    "section": "",
-    "text": "This tutorial is organized into several sections accessible through the sidebar:\n\n\nBegin here to understand the fundamental concepts and set up your environment.\n\n\n\nDive deeper into the theoretical foundations and key principles.\n\n\n\nSee real-world applications and hands-on demonstrations.\n\n\n\nLearn from common pitfalls and proven strategies.\n\n\n\nQuick access to APIs, FAQs, and additional resources.",
+    "title": "Show your work: Tutorial on building and hosting web applications",
+    "section": "How to Use This Tutorial",
+    "text": "How to Use This Tutorial\nThis tutorial is organized into several sections accessible through the sidebar:\n\nGetting Started\nBegin here to understand the fundamental concepts and set up your environment.\n\n\nCore Concepts\nDive deeper into the theoretical foundations and key principles.\n\n\nPractical Examples\nSee real-world applications and hands-on demonstrations.\n\n\nBest Practices\nLearn from common pitfalls and proven strategies.\n\n\nReference\nQuick access to APIs, FAQs, and additional resources.",
     "crumbs": [
       "Getting Started",
-      "Welcome to Show Your Work"
+      "Show your work: Tutorial on building and hosting web applications"
     ]
   },
   {
     "objectID": "index.html#ready-to-begin",
     "href": "index.html#ready-to-begin",
-    "title": "Welcome to Show Your Work",
-    "section": "",
-    "text": "Start with the Getting Started section to begin your journey, or use the sidebar navigation to jump to any section that interests you.\n\nThis tutorial emphasizes learning by doing. Each section includes practical exercises and examples to help you apply what you learn.",
+    "title": "Show your work: Tutorial on building and hosting web applications",
+    "section": "Ready to Begin?",
+    "text": "Ready to Begin?\nStart with the Getting Started section to begin your journey, or use the sidebar navigation to jump to any section that interests you.\n\nThis tutorial emphasizes learning by doing. Each section includes practical exercises and examples to help you apply what you learn.",
     "crumbs": [
       "Getting Started",
-      "Welcome to Show Your Work"
+      "Show your work: Tutorial on building and hosting web applications"
+    ]
+  },
+  {
+    "objectID": "index.html#welcome-to-the-tutorial",
+    "href": "index.html#welcome-to-the-tutorial",
+    "title": "Show your work: Tutorial on building and hosting web applications",
+    "section": "Welcome to the Tutorial!",
+    "text": "Welcome to the Tutorial!\nTransform your Python functions into interactive web applications and ensure your scientific work reaches the audience it deserves. In this hands-on session, you’ll learn to bridge the gap between analysis and presentation using modern, open-source tools—all without leaving the Python ecosystem.",
+    "crumbs": [
+      "Getting Started",
+      "Show your work: Tutorial on building and hosting web applications"
+    ]
+  },
+  {
+    "objectID": "index.html#what-youll-accomplish",
+    "href": "index.html#what-youll-accomplish",
+    "title": "Show your work: Tutorial on building and hosting web applications",
+    "section": "What You’ll Accomplish",
+    "text": "What You’ll Accomplish\nBy the end of this 4-hour tutorial, you will have:\n\nBuilt and deployed multiple interactive web applications\nCreated a personal portfolio showcasing your work\nMastered the decision process for choosing the right web framework\nGained practical experience with cutting-edge Python tools\nDeveloped reproducible workflows you can apply to future projects",
+    "crumbs": [
+      "Getting Started",
+      "Show your work: Tutorial on building and hosting web applications"
+    ]
+  },
+  {
+    "objectID": "index.html#why-this-matters",
+    "href": "index.html#why-this-matters",
+    "title": "Show your work: Tutorial on building and hosting web applications",
+    "section": "Why This Matters",
+    "text": "Why This Matters\nExcellent science hidden in code repositories has zero impact. Many brilliant researchers struggle to showcase their work effectively, causing valuable insights to remain buried in technical documents and unused codebases. This tutorial solves that problem by teaching you to create engaging, accessible web applications that bring your analysis to life.",
+    "crumbs": [
+      "Getting Started",
+      "Show your work: Tutorial on building and hosting web applications"
+    ]
+  },
+  {
+    "objectID": "index.html#what-well-cover",
+    "href": "index.html#what-well-cover",
+    "title": "Show your work: Tutorial on building and hosting web applications",
+    "section": "What We’ll Cover",
+    "text": "What We’ll Cover\n\nFramework Landscape\nCompare and contrast the leading Python web frameworks:\n\nDash - Enterprise-grade dashboards\nStreamlit - Rapid prototyping\nGradio - Machine learning interfaces\n\nShiny - Statistical applications\nSolara - Reactive interfaces\nQuarto - Document-driven apps\n\n\n\nFast Dash Deep Dive\nLearn our open-source library designed specifically for scientific prototyping:\n\nConvert functions to web apps with minimal code\nHandle complex data visualization seamlessly\nDeploy professional-grade applications quickly\n\n\n\nReal-World Applications\nWork through practical examples including:\n\nInteractive data exploration dashboards\nMap-based environmental monitoring tools\nMulti-dataset integration interfaces\nPerformance optimization techniques\n\n\n\nDeployment Strategies\nMaster the full pipeline from development to production:\n\nLocal development workflows\nCloud hosting options\nBest practices for scientific applications\nMaintaining reproducibility at scale",
+    "crumbs": [
+      "Getting Started",
+      "Show your work: Tutorial on building and hosting web applications"
+    ]
+  },
+  {
+    "objectID": "index.html#who-should-attend",
+    "href": "index.html#who-should-attend",
+    "title": "Show your work: Tutorial on building and hosting web applications",
+    "section": "Who Should Attend",
+    "text": "Who Should Attend\nThis tutorial is designed for data professionals who want to amplify the impact of their work:\n\nScientists and Researchers looking to make their analysis more accessible\nData Engineers building tools for scientific teams\n\nAnalysts who want to move beyond static reports\nAnyone with Python experience who values clear communication of technical work",
+    "crumbs": [
+      "Getting Started",
+      "Show your work: Tutorial on building and hosting web applications"
+    ]
+  },
+  {
+    "objectID": "index.html#prerequisites",
+    "href": "index.html#prerequisites",
+    "title": "Show your work: Tutorial on building and hosting web applications",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nBefore the session, please ensure you have:\n\nPython 3.8+ installed on your system\nBasic Python programming familiarity\nCode editor or IDE of your choice\nGit installed for accessing tutorial materials\n\n\nRequired Installation\nRun this command before the tutorial:\npip install fast-dash streamlit gradio",
+    "crumbs": [
+      "Getting Started",
+      "Show your work: Tutorial on building and hosting web applications"
+    ]
+  },
+  {
+    "objectID": "index.html#bring-your-own-data",
+    "href": "index.html#bring-your-own-data",
+    "title": "Show your work: Tutorial on building and hosting web applications",
+    "section": "Bring Your Own Data",
+    "text": "Bring Your Own Data\nWhile we’ll provide example datasets and use cases, you’re encouraged to bring your own:\n\nDatasets you’re currently analyzing\nFunctions you’d like to turn into web apps\nSpecific use cases from your domain\nVisualization challenges you’re facing",
+    "crumbs": [
+      "Getting Started",
+      "Show your work: Tutorial on building and hosting web applications"
+    ]
+  },
+  {
+    "objectID": "index.html#meet-your-instructors",
+    "href": "index.html#meet-your-instructors",
+    "title": "Show your work: Tutorial on building and hosting web applications",
+    "section": "Meet Your Instructors",
+    "text": "Meet Your Instructors\nOur teaching team brings over five years of experience building and deploying data solutions at major scientific organizations. We’ve seen firsthand how the right tools can transform complex analysis into compelling, accessible applications that drive real-world impact.",
+    "crumbs": [
+      "Getting Started",
+      "Show your work: Tutorial on building and hosting web applications"
+    ]
+  },
+  {
+    "objectID": "index.html#get-ready-to-show-your-work",
+    "href": "index.html#get-ready-to-show-your-work",
+    "title": "Show your work: Tutorial on building and hosting web applications",
+    "section": "Get Ready to Show Your Work",
+    "text": "Get Ready to Show Your Work\nScientific communication shouldn’t require a computer science degree. With the right approach and tools, you can create professional web applications that make your research accessible, engaging, and impactful. Let’s turn your hidden insights into visible solutions.\n\nQuestions? Feel free to reach out during the session or connect with fellow participants. We’re here to ensure you leave with both the skills and confidence to showcase your scientific work effectively.",
+    "crumbs": [
+      "Getting Started",
+      "Show your work: Tutorial on building and hosting web applications"
+    ]
+  },
+  {
+    "objectID": "installation.html",
+    "href": "installation.html",
+    "title": "Installation",
+    "section": "",
+    "text": "Steps to install",
+    "crumbs": [
+      "Getting Started",
+      "Installation"
+    ]
+  },
+  {
+    "objectID": "index.html#meet-your-instructor",
+    "href": "index.html#meet-your-instructor",
+    "title": "Show your work: Tutorial on building and hosting web applications",
+    "section": "Meet Your Instructor",
+    "text": "Meet Your Instructor\nOur teaching team brings over five years of experience building and deploying data solutions at major scientific organizations. We’ve seen firsthand how the right tools can transform complex analysis into compelling, accessible applications that drive real-world impact.",
+    "crumbs": [
+      "Getting Started",
+      "Show your work: Tutorial on building and hosting web applications"
     ]
   }
 ]

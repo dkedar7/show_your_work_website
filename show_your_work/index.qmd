@@ -1,43 +1,109 @@
 ---
-title: "Welcome to Show Your Work"
+title: "Show your work: Tutorial on building and hosting web applications"
 ---
 
-# Welcome to the Show Your Work Tutorial
+**📅 July 8, 2024 | 08:00–12:00 (US/Pacific) | Ballroom C**
 
-This comprehensive tutorial will guide you through the principles and practices of showing your work effectively. Whether you're a student, researcher, or professional, learning to document and present your process is crucial for transparency, reproducibility, and collaboration.
+## Welcome to the Tutorial!
 
-## What You'll Learn
+Transform your Python functions into interactive web applications and ensure your scientific work reaches the audience it deserves. In this hands-on session, you'll learn to bridge the gap between analysis and presentation using modern, open-source tools—all without leaving the Python ecosystem.
 
-Throughout this tutorial, you'll discover:
+## What You'll Accomplish
 
-- **Core principles** of transparent work practices
-- **Practical techniques** for documenting your process
-- **Tools and methods** for sharing your work effectively
-- **Best practices** for collaboration and reproducibility
+By the end of this 4-hour tutorial, you will have:
 
-## How to Use This Tutorial
+- **Built and deployed** multiple interactive web applications
+- **Created a personal portfolio** showcasing your work
+- **Mastered the decision process** for choosing the right web framework
+- **Gained practical experience** with cutting-edge Python tools
+- **Developed reproducible workflows** you can apply to future projects
 
-This tutorial is organized into several sections accessible through the sidebar:
+## Why This Matters
 
-### Getting Started
-Begin here to understand the fundamental concepts and set up your environment.
+Excellent science hidden in code repositories has zero impact. Many brilliant researchers struggle to showcase their work effectively, causing valuable insights to remain buried in technical documents and unused codebases. This tutorial solves that problem by teaching you to create engaging, accessible web applications that bring your analysis to life.
 
-### Core Concepts
-Dive deeper into the theoretical foundations and key principles.
+## What We'll Cover
 
-### Practical Examples
-See real-world applications and hands-on demonstrations.
+### Framework Landscape
 
-### Best Practices
-Learn from common pitfalls and proven strategies.
+Compare and contrast the leading Python web frameworks:
 
-### Reference
-Quick access to APIs, FAQs, and additional resources.
+- **Dash** - Enterprise-grade dashboards
+- **Streamlit** - Rapid prototyping
+- **Gradio** - Machine learning interfaces  
+- **Shiny** - Statistical applications
+- **Solara** - Reactive interfaces
+- **Quarto** - Document-driven apps
 
-## Ready to Begin?
+### Fast Dash Deep Dive
 
-Start with the [Getting Started](getting-started.qmd) section to begin your journey, or use the sidebar navigation to jump to any section that interests you.
+Learn our open-source library designed specifically for scientific prototyping:
+
+- Convert functions to web apps with minimal code
+- Handle complex data visualization seamlessly
+- Deploy professional-grade applications quickly
+
+### Real-World Applications
+
+Work through practical examples including:
+
+- Interactive data exploration dashboards
+- Map-based environmental monitoring tools
+- Multi-dataset integration interfaces
+- Performance optimization techniques
+
+### Deployment Strategies
+
+Master the full pipeline from development to production:
+
+- Local development workflows
+- Cloud hosting options
+- Best practices for scientific applications
+- Maintaining reproducibility at scale
+
+## Who Should Attend
+
+This tutorial is designed for data professionals who want to amplify the impact of their work:
+
+- **Scientists and Researchers** looking to make their analysis more accessible
+- **Data Engineers** building tools for scientific teams  
+- **Analysts** who want to move beyond static reports
+- **Anyone** with Python experience who values clear communication of technical work
+
+## Prerequisites
+
+Before the session, please ensure you have:
+
+- **Python 3.8+** installed on your system
+- **Basic Python programming** familiarity
+- **Code editor or IDE** of your choice
+- **Git** installed for accessing tutorial materials
+
+### Required Installation
+
+Run this command before the tutorial:
+
+```bash
+pip install fast-dash streamlit gradio
+```
+
+## Bring Your Own Data
+
+While we'll provide example datasets and use cases, you're encouraged to bring your own:
+
+- **Datasets** you're currently analyzing
+- **Functions** you'd like to turn into web apps
+- **Specific use cases** from your domain
+- **Visualization challenges** you're facing
+
+## Meet Your Instructor
+
+Our teaching team brings over five years of experience building and deploying data solutions at major scientific organizations. We've seen firsthand how the right tools can transform complex analysis into compelling, accessible applications that drive real-world impact.
+
+## Get Ready to Show Your Work
+
+Scientific communication shouldn't require a computer science degree. With the right approach and tools, you can create professional web applications that make your research accessible, engaging, and impactful. Let's turn your hidden insights into visible solutions.
 
 ---
 
-*This tutorial emphasizes learning by doing. Each section includes practical exercises and examples to help you apply what you learn.*
+**Questions?** Feel free to reach out during the session or connect with fellow participants. We're here to ensure you leave with both the skills and confidence to showcase your scientific work effectively.
