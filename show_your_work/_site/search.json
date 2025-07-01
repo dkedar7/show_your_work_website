@@ -4,7 +4,7 @@
     "href": "setup.html",
     "title": "Getting set up",
     "section": "",
-    "text": "Note\n\n\n\nYou are not required to run these steps before the tutorial. We will set aside some time during the tutorial to get everyone set up.\n\n\n\nUsing Nebari (coming soon)\nNebari instructions\n\n\nInstall locally\nWe’ll required Python for this tutorial. You can download it here.\n\nClone the Github repo and install dependencies\n\ngit clone https://github.com/dkedar7/show_your_work\n\nInstall dependencies\n\nOpen the repo with your favorite text editor\npip install -r requirements.txt\n\nLaunch Jupyter Lab to follow along\n\njupyter lab\n\n\nTest your setup\nLaunch a new Jupyter notebook, and run the following cell\nfrom fast_dash import fastdash\n\n@fastdash\ndef simple_app(text: str):\n    output_text = \"This is my first Fast Dash app!\"\n    return output_text\n\n\n\n\n\n\nNote\n\n\n\nIf you have any questions or feedback, please email me at kdabhadk@gmail.com.",
+    "text": "Note\n\n\n\nYou are highly encouraged to run these steps before the tutorial. We will also set aside some time during the tutorial to get everyone set up.\n\n\nDuring this tutorial, we’ll use Quarto to aggregate our apps (app store) and Google Cloud Run to host them (optional). So, you will need to install Quarto and the gcloud CLI (optional). Google Cloud is only needed if you want to share your apps over the internet.\n\nInstall Quarto:\nFollow the instructions at quarto.org/docs/get-started.\nInstall Google Cloud CLI (optional):\nFollow the instructions at cloud.google.com/sdk/docs/install.\nInstall tutorial files and install Python environment: Either install locally (recommended) or use Nebari (instructions to follow soon).\n\n\nInstall Python enviornment locally (recommended)\nWe’ll required Python 3.9+ for this tutorial. You can download it here.\n\nClone the Github repo and install dependencies\n\ngit clone https://github.com/dkedar7/show_your_work\n\nInstall dependencies\n\nOpen the repo with your favorite text editor, create a virtual environment and install dependencies.\ncd show_your_work\npython -m venv .venv\n\nsource .venv/bin/activate # For Linux and MacOS\n.venv\\Scripts\\activate # For Windows\n\npip install -r requirements.txt\n\nLaunch Jupyter Lab to follow along\n\njupyter lab\n\n\nUsing Nebari (coming soon)\nNebari instructions\n\n\nTest your setup\nLaunch a new Jupyter notebook, and run the following cell\nfrom fast_dash import fastdash\n\n@fastdash\ndef simple_app(text: str):\n    output_text = \"This is my first Fast Dash app!\"\n    return output_text\n\n\n\n\n\n\nNote\n\n\n\nIf you have any questions or feedback, please email me at kdabhadk@gmail.com.",
     "crumbs": [
       "Getting Started",
       "Getting set up"
@@ -15,7 +15,7 @@
     "href": "index.html",
     "title": "Show your work: Tutorial on building and hosting web applications",
     "section": "",
-    "text": "📅 July 8, 2024 | 08:00–12:00 (US/Pacific) | Ballroom C",
+    "text": "📅 Tuesday, July 8, 2024 | 08:00–12:00 (US/Pacific) | Ballroom C",
     "crumbs": [
       "Getting Started",
       "Show your work: Tutorial on building and hosting web applications"
@@ -37,7 +37,7 @@
     "href": "index.html#what-youll-accomplish",
     "title": "Show your work: Tutorial on building and hosting web applications",
     "section": "What You’ll Accomplish",
-    "text": "What You’ll Accomplish\nBy the end of this 4-hour tutorial, you will have:\n\nBuilt and deployed multiple interactive web applications\nCreated a personal portfolio showcasing your work\nMastered the decision process for choosing the right web framework\nGained practical experience with cutting-edge Python tools\nDeveloped reproducible workflows you can apply to future projects",
+    "text": "What You’ll Accomplish\nBy the end of this 4-hour tutorial, you will have:\n\nBuilt and deployed multiple interactive web applications\nCreated a personal app store/portfolio\nGained practical experience building and deploying web applications\nDeveloped reproducible workflows you can apply to future projects",
     "crumbs": [
       "Getting Started",
       "Show your work: Tutorial on building and hosting web applications"
@@ -59,7 +59,7 @@
     "href": "index.html#what-well-cover",
     "title": "Show your work: Tutorial on building and hosting web applications",
     "section": "What We’ll Cover",
-    "text": "What We’ll Cover\n\nFramework Landscape\nCompare and contrast the leading Python web frameworks:\n\nDash - Enterprise-grade dashboards\nStreamlit - Rapid prototyping\nGradio - Machine learning interfaces\n\nShiny - Statistical applications\nSolara - Reactive interfaces\nQuarto - Document-driven apps\n\n\n\nFast Dash Deep Dive\nLearn our open-source library designed specifically for scientific prototyping:\n\nConvert functions to web apps with minimal code\nHandle complex data visualization seamlessly\nDeploy professional-grade applications quickly\n\n\n\nReal-World Applications\nWork through practical examples including:\n\nInteractive data exploration dashboards\nMap-based environmental monitoring tools\nMulti-dataset integration interfaces\nPerformance optimization techniques\n\n\n\nDeployment Strategies\nMaster the full pipeline from development to production:\n\nLocal development workflows\nCloud hosting options\nBest practices for scientific applications\nMaintaining reproducibility at scale",
+    "text": "What We’ll Cover\n\nFramework Landscape\nCompare and contrast the leading Python web frameworks:\n\nStreamlit - Rapid prototyping\nGradio - Machine learning interfaces\n\nShiny - Statistical applications\nQuarto - Document-driven apps\n\n\nFast Dash Deep Dive\nLearn to use this library designed specifically for rapid prototyping:\n\nConvert functions to web apps with minimal code\nHandle complex data visualization seamlessly\nDeploy professional-grade applications quickly",
     "crumbs": [
       "Getting Started",
       "Show your work: Tutorial on building and hosting web applications"
@@ -70,7 +70,7 @@
     "href": "index.html#who-should-attend",
     "title": "Show your work: Tutorial on building and hosting web applications",
     "section": "Who Should Attend",
-    "text": "Who Should Attend\nThis tutorial is designed for data professionals who want to amplify the impact of their work:\n\nScientists and Researchers looking to make their analysis more accessible\nData Engineers building tools for scientific teams\n\nAnalysts who want to move beyond static reports\nAnyone with Python experience who values clear communication of technical work",
+    "text": "Who Should Attend\nThis tutorial is designed for data professionals who want to amplify the impact of their work:\n\nScientists and Researchers looking to make their analysis more accessible\nData Engineers building tools for their teams\n\nAnalysts who want to move beyond static reports\nAnyone with Python experience efficient communication of technical work",
     "crumbs": [
       "Getting Started",
       "Show your work: Tutorial on building and hosting web applications"
@@ -81,7 +81,7 @@
     "href": "index.html#prerequisites",
     "title": "Show your work: Tutorial on building and hosting web applications",
     "section": "Prerequisites",
-    "text": "Prerequisites\nBefore the session, please ensure you have:\n\nPython 3.8+ installed on your system\nBasic Python programming familiarity\nCode editor or IDE of your choice\nGit installed for accessing tutorial materials\n\n\nRequired Installation\nRun this command before the tutorial:\npip install fast-dash streamlit gradio",
+    "text": "Prerequisites\nBefore the session, please ensure you have:\n\nPython 3.9+ installed on your system\nBasic Python programming familiarity\nCode editor or IDE of your choice\nGit installed for accessing tutorial materials\n\n\nRequired Installation\nRun this command before the tutorial:\npip install fast-dash streamlit gradio",
     "crumbs": [
       "Getting Started",
       "Show your work: Tutorial on building and hosting web applications"
@@ -92,7 +92,7 @@
     "href": "index.html#bring-your-own-data",
     "title": "Show your work: Tutorial on building and hosting web applications",
     "section": "Bring Your Own Data",
-    "text": "Bring Your Own Data\nWhile we’ll provide example datasets and use cases, you’re encouraged to bring your own:\n\nDatasets you’re currently analyzing\nFunctions you’d like to turn into web apps\nSpecific use cases from your domain\nVisualization challenges you’re facing",
+    "text": "Bring Your Own Data\nWhile I’ll provide example datasets and use cases, you’re encouraged to bring your own:\n\nDatasets you’re currently analyzing\nFunctions you’d like to turn into web apps\nSpecific use cases from your domain\nVisualization challenges you’re facing",
     "crumbs": [
       "Getting Started",
       "Show your work: Tutorial on building and hosting web applications"
@@ -103,7 +103,7 @@
     "href": "index.html#meet-your-instructor",
     "title": "Show your work: Tutorial on building and hosting web applications",
     "section": "Meet Your Instructor",
-    "text": "Meet Your Instructor\nOur teaching team brings over five years of experience building and deploying data solutions at major scientific organizations. We’ve seen firsthand how the right tools can transform complex analysis into compelling, accessible applications that drive real-world impact.",
+    "text": "Meet Your Instructor\n\nI am a Data scientist at Lam Research with &gt;6 years of experience in statistical data analysis, engineering, and machine learning. I’ve built and deployed over 50 web applications for my teams and colleagues at work, friends and family. I built Fast Dash, an open-source Python library that transforms Python functions into interactive web applications.\n  \n\nQuestions? Feel free to reach out during the session or connect with fellow participants. If you have any questions or feedback, please email me at kdabhadk@gmail.com.",
     "crumbs": [
       "Getting Started",
       "Show your work: Tutorial on building and hosting web applications"
@@ -128,6 +128,17 @@
     "text": "About this site",
     "crumbs": [
       "About"
+    ]
+  },
+  {
+    "objectID": "setup.html#install-quarto-and-google-cloud-cli-optional",
+    "href": "setup.html#install-quarto-and-google-cloud-cli-optional",
+    "title": "Getting set up",
+    "section": "Install Quarto and Google Cloud CLI (optional)",
+    "text": "Install Quarto and Google Cloud CLI (optional)\nDuring this tutorial, we’ll use Quarto to aggregate our apps (app store) and Google Cloud Run to host them (optional). So, you will need to install Quarto and the gcloud CLI (optional). Google Cloud is only needed if you want to share your apps over the internet.\n\nInstall Quarto:\nFollow the instructions at quarto.org/docs/get-started.\nInstall Google Cloud CLI (optional):\nFollow the instructions at cloud.google.com/sdk/docs/install.\n\n\nInstall locally (recommended)\nWe’ll required Python for this tutorial. You can download it here.\n\nClone the Github repo and install dependencies\n\ngit clone https://github.com/dkedar7/show_your_work\n\nInstall dependencies\n\nOpen the repo with your favorite text editor\npip install -r requirements.txt\n\nLaunch Jupyter Lab to follow along\n\njupyter lab\n\n\nUsing Nebari (coming soon)\nNebari instructions\n\n\nTest your setup\nLaunch a new Jupyter notebook, and run the following cell\nfrom fast_dash import fastdash\n\n@fastdash\ndef simple_app(text: str):\n    output_text = \"This is my first Fast Dash app!\"\n    return output_text\n\n\n\n\n\n\nNote\n\n\n\nIf you have any questions or feedback, please email me at kdabhadk@gmail.com.",
+    "crumbs": [
+      "Getting Started",
+      "Getting set up"
     ]
   }
 ]

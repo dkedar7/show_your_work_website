@@ -2,7 +2,11 @@
 title: "Show your work: Tutorial on building and hosting web applications"
 ---
 
-**📅 July 8, 2024 | 08:00–12:00 (US/Pacific) | Ballroom C**
+**📅 Tuesday, July 8, 2024 | 08:00–12:00 (US/Pacific) | Ballroom C**
+
+::: {.callout-note}
+For setup instructions and environment details, see [setup](setup.qmd) instructions.
+::: 
 
 ![Show Your Work Tutorial](assets/spectralindices.png){width=100%}
 
@@ -16,14 +20,10 @@ Transform your Python functions into interactive web applications and ensure you
 By the end of this 4-hour tutorial, you will have:
 
 - **Built and deployed** multiple interactive web applications
-- **Created a personal portfolio** showcasing your work
-- **Mastered the decision process** for choosing the right web framework
-- **Gained practical experience** with cutting-edge Python tools
+- **Created a personal app store/portfolio**
+- **Gained practical experience** building and deploying web applications
 - **Developed reproducible workflows** you can apply to future projects
 
-## Why This Matters
-
-Excellent science hidden in code repositories has zero impact. Many brilliant researchers struggle to showcase their work effectively, causing valuable insights to remain buried in technical documents and unused codebases. This tutorial solves that problem by teaching you to create engaging, accessible web applications that bring your analysis to life.
 
 ## What We'll Cover
 
@@ -31,53 +31,33 @@ Excellent science hidden in code repositories has zero impact. Many brilliant re
 
 Compare and contrast the leading Python web frameworks:
 
-- **Dash** - Enterprise-grade dashboards
 - **Streamlit** - Rapid prototyping
 - **Gradio** - Machine learning interfaces  
 - **Shiny** - Statistical applications
-- **Solara** - Reactive interfaces
 - **Quarto** - Document-driven apps
 
-### Fast Dash Deep Dive
+#### Fast Dash Deep Dive
 
-Learn our open-source library designed specifically for scientific prototyping:
+Learn to use this library designed specifically for rapid prototyping:
 
 - Convert functions to web apps with minimal code
 - Handle complex data visualization seamlessly
 - Deploy professional-grade applications quickly
-
-### Real-World Applications
-
-Work through practical examples including:
-
-- Interactive data exploration dashboards
-- Map-based environmental monitoring tools
-- Multi-dataset integration interfaces
-- Performance optimization techniques
-
-### Deployment Strategies
-
-Master the full pipeline from development to production:
-
-- Local development workflows
-- Cloud hosting options
-- Best practices for scientific applications
-- Maintaining reproducibility at scale
 
 ## Who Should Attend
 
 This tutorial is designed for data professionals who want to amplify the impact of their work:
 
 - **Scientists and Researchers** looking to make their analysis more accessible
-- **Data Engineers** building tools for scientific teams  
+- **Data Engineers** building tools for their teams  
 - **Analysts** who want to move beyond static reports
-- **Anyone** with Python experience who values clear communication of technical work
+- **Anyone** with Python experience efficient communication of technical work
 
 ## Prerequisites
 
 Before the session, please ensure you have:
 
-- **Python 3.8+** installed on your system
+- **Python 3.9+** installed on your system
 - **Basic Python programming** familiarity
 - **Code editor or IDE** of your choice
 - **Git** installed for accessing tutorial materials
@@ -92,7 +72,7 @@ pip install fast-dash streamlit gradio
 
 ## Bring Your Own Data
 
-While we'll provide example datasets and use cases, you're encouraged to bring your own:
+While I'll provide example datasets and use cases, you're encouraged to bring your own:
 
 - **Datasets** you're currently analyzing
 - **Functions** you'd like to turn into web apps
@@ -101,12 +81,13 @@ While we'll provide example datasets and use cases, you're encouraged to bring y
 
 ## Meet Your Instructor
 
-Our teaching team brings over five years of experience building and deploying data solutions at major scientific organizations. We've seen firsthand how the right tools can transform complex analysis into compelling, accessible applications that drive real-world impact.
+<img src="https://dkedar.com/assets/me.png" alt="Instructor Photo" style="width:120px; border-radius:50%; margin-bottom:10px;" />
 
-## Get Ready to Show Your Work
+I am a Data scientist at Lam Research with >6 years of experience in statistical data analysis, engineering, and machine learning. I've built and deployed over 50 web applications for my teams and colleagues at work, friends and family. I built Fast Dash, an open-source Python library that transforms Python functions into interactive web applications.
 
-Scientific communication shouldn't require a computer science degree. With the right approach and tools, you can create professional web applications that make your research accessible, engaging, and impactful. Let's turn your hidden insights into visible solutions.
+<a href="https://www.linkedin.com/in/dkedar7/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" style="width:32px; vertical-align:middle; margin-right:8px;"/> </a>
 
 ---
 
-**Questions?** Feel free to reach out during the session or connect with fellow participants. We're here to ensure you leave with both the skills and confidence to showcase your scientific work effectively.
+**Questions?** Feel free to reach out during the session or connect with fellow participants. If you have any questions or feedback, please email me at [kdabhadk@gmail.com](mailto:kdabhadk@gmail.com).

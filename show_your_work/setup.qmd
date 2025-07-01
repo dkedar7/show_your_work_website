@@ -3,38 +3,55 @@ title: "Getting set up"
 ---
 
 ::: {.callout-note}
-You are not required to run these steps before the tutorial. 
-We will set aside some time during the tutorial to get everyone set up.
+You are highly encouraged to run these steps before the tutorial. 
+We will also set aside some time during the tutorial to get everyone set up.
 :::
 
-### Using Nebari (coming soon)
+During this tutorial, we'll use **Quarto** to aggregate our apps (app store) and **Google Cloud Run** to host them (optional). So, you will need to install Quarto and the `gcloud` CLI (optional). Google Cloud is only needed if you want to share your apps over the internet.
 
-Nebari instructions
+- **Install Quarto:**  
+    Follow the instructions at [quarto.org/docs/get-started](https://quarto.org/docs/get-started/).
+
+- **Install Google Cloud CLI (optional):**  
+    Follow the instructions at [cloud.google.com/sdk/docs/install](https://cloud.google.com/sdk/docs/install).
+
+- **Install tutorial files and install Python environment:**
+    Either install locally (recommended) or use Nebari (instructions to follow soon).
 
 
-### Install locally
+### Install Python enviornment locally (recommended)
 
-We'll required Python for this tutorial. You can download it [here](https://www.python.org/downloads/).
+We'll required Python 3.9+ for this tutorial. You can download it [here](https://www.python.org/downloads/).
 
-1. Clone the Github repo and install dependencies
+1. **Clone the Github repo and install dependencies**
 
 ```bash
 git clone https://github.com/dkedar7/show_your_work
 ```
 
-2. Install dependencies
+2. **Install dependencies**
 
-Open the repo with your favorite text editor
+Open the repo with your favorite text editor, create a virtual environment and install dependencies.
 
 ```bash
+cd show_your_work
+python -m venv .venv
+
+source .venv/bin/activate # For Linux and MacOS
+.venv\Scripts\activate # For Windows
+
 pip install -r requirements.txt
 ```
 
-3. Launch Jupyter Lab to follow along
+3. **Launch Jupyter Lab to follow along**
 
 ```bash
 jupyter lab
 ```
+
+### Using Nebari (coming soon)
+
+Nebari instructions
 
 ### Test your setup
 
@@ -52,3 +69,4 @@ def simple_app(text: str):
 ::: {.callout-note}
 If you have any questions or feedback, please email me at [kdabhadk@gmail.com](mailto:kdabhadk@gmail.com).
 :::
+

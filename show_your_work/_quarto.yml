@@ -14,10 +14,7 @@ website:
           - index.qmd
           - setup.qmd
       - section: "Core Concepts (coming soon)"
-      - section: "Practical Examples (coming soon)"
       - section: "Best Practices (coming soon)"
-      - section: "Reference (coming soon)"
-      - about.qmd
 
 format:
   html:

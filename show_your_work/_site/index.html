@@ -170,22 +170,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">Practical Examples (coming soon)</span></span>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">
  <span class="menu-text">Best Practices (coming soon)</span></span>
   </li>
-        <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">Reference (coming soon)</span></span>
-  </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
     </ul>
     </div>
 </nav>
@@ -198,13 +184,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul>
   <li><a href="#welcome-to-the-tutorial" id="toc-welcome-to-the-tutorial" class="nav-link active" data-scroll-target="#welcome-to-the-tutorial">Welcome to the Tutorial!</a></li>
   <li><a href="#what-youll-accomplish" id="toc-what-youll-accomplish" class="nav-link" data-scroll-target="#what-youll-accomplish">What You’ll Accomplish</a></li>
-  <li><a href="#why-this-matters" id="toc-why-this-matters" class="nav-link" data-scroll-target="#why-this-matters">Why This Matters</a></li>
   <li><a href="#what-well-cover" id="toc-what-well-cover" class="nav-link" data-scroll-target="#what-well-cover">What We’ll Cover</a>
   <ul class="collapse">
   <li><a href="#framework-landscape" id="toc-framework-landscape" class="nav-link" data-scroll-target="#framework-landscape">Framework Landscape</a></li>
-  <li><a href="#fast-dash-deep-dive" id="toc-fast-dash-deep-dive" class="nav-link" data-scroll-target="#fast-dash-deep-dive">Fast Dash Deep Dive</a></li>
-  <li><a href="#real-world-applications" id="toc-real-world-applications" class="nav-link" data-scroll-target="#real-world-applications">Real-World Applications</a></li>
-  <li><a href="#deployment-strategies" id="toc-deployment-strategies" class="nav-link" data-scroll-target="#deployment-strategies">Deployment Strategies</a></li>
   </ul></li>
   <li><a href="#who-should-attend" id="toc-who-should-attend" class="nav-link" data-scroll-target="#who-should-attend">Who Should Attend</a></li>
   <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisites</a>
@@ -213,7 +195,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#bring-your-own-data" id="toc-bring-your-own-data" class="nav-link" data-scroll-target="#bring-your-own-data">Bring Your Own Data</a></li>
   <li><a href="#meet-your-instructor" id="toc-meet-your-instructor" class="nav-link" data-scroll-target="#meet-your-instructor">Meet Your Instructor</a></li>
-  <li><a href="#get-ready-to-show-your-work" id="toc-get-ready-to-show-your-work" class="nav-link" data-scroll-target="#get-ready-to-show-your-work">Get Ready to Show Your Work</a></li>
   </ul>
 </nav>
     </div>
@@ -239,7 +220,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p><strong>📅 July 8, 2024 | 08:00–12:00 (US/Pacific) | Ballroom C</strong></p>
+<p><strong>📅 Tuesday, July 8, 2024 | 08:00–12:00 (US/Pacific) | Ballroom C</strong></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>For setup instructions and environment details, see <a href="./setup.html">setup</a> instructions.</p>
+</div>
+</div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="assets/spectralindices.png" class="img-fluid figure-img" style="width:100.0%"></p>
@@ -255,15 +249,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>By the end of this 4-hour tutorial, you will have:</p>
 <ul>
 <li><strong>Built and deployed</strong> multiple interactive web applications</li>
-<li><strong>Created a personal portfolio</strong> showcasing your work</li>
-<li><strong>Mastered the decision process</strong> for choosing the right web framework</li>
-<li><strong>Gained practical experience</strong> with cutting-edge Python tools</li>
+<li><strong>Created a personal app store/portfolio</strong></li>
+<li><strong>Gained practical experience</strong> building and deploying web applications</li>
 <li><strong>Developed reproducible workflows</strong> you can apply to future projects</li>
 </ul>
-</section>
-<section id="why-this-matters" class="level2">
-<h2 class="anchored" data-anchor-id="why-this-matters">Why This Matters</h2>
-<p>Excellent science hidden in code repositories has zero impact. Many brilliant researchers struggle to showcase their work effectively, causing valuable insights to remain buried in technical documents and unused codebases. This tutorial solves that problem by teaching you to create engaging, accessible web applications that bring your analysis to life.</p>
 </section>
 <section id="what-well-cover" class="level2">
 <h2 class="anchored" data-anchor-id="what-well-cover">What We’ll Cover</h2>
@@ -271,43 +260,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h3 class="anchored" data-anchor-id="framework-landscape">Framework Landscape</h3>
 <p>Compare and contrast the leading Python web frameworks:</p>
 <ul>
-<li><strong>Dash</strong> - Enterprise-grade dashboards</li>
 <li><strong>Streamlit</strong> - Rapid prototyping</li>
 <li><strong>Gradio</strong> - Machine learning interfaces<br>
 </li>
 <li><strong>Shiny</strong> - Statistical applications</li>
-<li><strong>Solara</strong> - Reactive interfaces</li>
 <li><strong>Quarto</strong> - Document-driven apps</li>
 </ul>
-</section>
-<section id="fast-dash-deep-dive" class="level3">
-<h3 class="anchored" data-anchor-id="fast-dash-deep-dive">Fast Dash Deep Dive</h3>
-<p>Learn our open-source library designed specifically for scientific prototyping:</p>
+<section id="fast-dash-deep-dive" class="level4">
+<h4 class="anchored" data-anchor-id="fast-dash-deep-dive">Fast Dash Deep Dive</h4>
+<p>Learn to use this library designed specifically for rapid prototyping:</p>
 <ul>
 <li>Convert functions to web apps with minimal code</li>
 <li>Handle complex data visualization seamlessly</li>
 <li>Deploy professional-grade applications quickly</li>
 </ul>
 </section>
-<section id="real-world-applications" class="level3">
-<h3 class="anchored" data-anchor-id="real-world-applications">Real-World Applications</h3>
-<p>Work through practical examples including:</p>
-<ul>
-<li>Interactive data exploration dashboards</li>
-<li>Map-based environmental monitoring tools</li>
-<li>Multi-dataset integration interfaces</li>
-<li>Performance optimization techniques</li>
-</ul>
-</section>
-<section id="deployment-strategies" class="level3">
-<h3 class="anchored" data-anchor-id="deployment-strategies">Deployment Strategies</h3>
-<p>Master the full pipeline from development to production:</p>
-<ul>
-<li>Local development workflows</li>
-<li>Cloud hosting options</li>
-<li>Best practices for scientific applications</li>
-<li>Maintaining reproducibility at scale</li>
-</ul>
 </section>
 </section>
 <section id="who-should-attend" class="level2">
@@ -315,17 +282,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>This tutorial is designed for data professionals who want to amplify the impact of their work:</p>
 <ul>
 <li><strong>Scientists and Researchers</strong> looking to make their analysis more accessible</li>
-<li><strong>Data Engineers</strong> building tools for scientific teams<br>
+<li><strong>Data Engineers</strong> building tools for their teams<br>
 </li>
 <li><strong>Analysts</strong> who want to move beyond static reports</li>
-<li><strong>Anyone</strong> with Python experience who values clear communication of technical work</li>
+<li><strong>Anyone</strong> with Python experience efficient communication of technical work</li>
 </ul>
 </section>
 <section id="prerequisites" class="level2">
 <h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
 <p>Before the session, please ensure you have:</p>
 <ul>
-<li><strong>Python 3.8+</strong> installed on your system</li>
+<li><strong>Python 3.9+</strong> installed on your system</li>
 <li><strong>Basic Python programming</strong> familiarity</li>
 <li><strong>Code editor or IDE</strong> of your choice</li>
 <li><strong>Git</strong> installed for accessing tutorial materials</li>
@@ -338,7 +305,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="bring-your-own-data" class="level2">
 <h2 class="anchored" data-anchor-id="bring-your-own-data">Bring Your Own Data</h2>
-<p>While we’ll provide example datasets and use cases, you’re encouraged to bring your own:</p>
+<p>While I’ll provide example datasets and use cases, you’re encouraged to bring your own:</p>
 <ul>
 <li><strong>Datasets</strong> you’re currently analyzing</li>
 <li><strong>Functions</strong> you’d like to turn into web apps</li>
@@ -348,13 +315,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="meet-your-instructor" class="level2">
 <h2 class="anchored" data-anchor-id="meet-your-instructor">Meet Your Instructor</h2>
-<p>Our teaching team brings over five years of experience building and deploying data solutions at major scientific organizations. We’ve seen firsthand how the right tools can transform complex analysis into compelling, accessible applications that drive real-world impact.</p>
-</section>
-<section id="get-ready-to-show-your-work" class="level2">
-<h2 class="anchored" data-anchor-id="get-ready-to-show-your-work">Get Ready to Show Your Work</h2>
-<p>Scientific communication shouldn’t require a computer science degree. With the right approach and tools, you can create professional web applications that make your research accessible, engaging, and impactful. Let’s turn your hidden insights into visible solutions.</p>
+<p><img src="https://dkedar.com/assets/me.png" alt="Instructor Photo" style="width:120px; border-radius:50%; margin-bottom:10px;"></p>
+<p>I am a Data scientist at Lam Research with &gt;6 years of experience in statistical data analysis, engineering, and machine learning. I’ve built and deployed over 50 web applications for my teams and colleagues at work, friends and family. I built Fast Dash, an open-source Python library that transforms Python functions into interactive web applications.</p>
+<p><a href="https://www.linkedin.com/in/dkedar7/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" style="width:32px; vertical-align:middle; margin-right:8px;"> </a></p>
 <hr>
-<p><strong>Questions?</strong> Feel free to reach out during the session or connect with fellow participants. We’re here to ensure you leave with both the skills and confidence to showcase your scientific work effectively.</p>
+<p><strong>Questions?</strong> Feel free to reach out during the session or connect with fellow participants. If you have any questions or feedback, please email me at <a href="mailto:kdabhadk@gmail.com">kdabhadk@gmail.com</a>.</p>
 
 
 </section>
