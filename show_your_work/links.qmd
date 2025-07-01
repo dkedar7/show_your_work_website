@@ -1,0 +1,23 @@
+---
+title: "Important links"
+---
+
+This page provides a curated list of important links and resources required for the tutorial. You will find references to the tutorial website, source material, essential software, and required Python libraries to help you get started and follow along effectively.
+
+## Tutorial dependencies
+
+- **Tutorial website (this)**: [showyourwork.web.app](https://showyourwork.web.app/)
+- **Tutotial material**: [github.com/dkedar7/show_your_work](https://github.com/dkedar7/show_your_work/)
+- **Python**: [https://www.python.org/downloads](https://www.python.org/downloads/)
+- **Quarto**: [quarto.org/docs/get-started](https://quarto.org/docs/get-started)
+- **Google Cloud CLI**: [cloud.google.com/sdk/docs/install](https://cloud.google.com/sdk/docs/install)
+
+## Required libraries
+- **Jupyter Widgets**: [ipywidgets.readthedocs.io/en/latest](https://ipywidgets.readthedocs.io/en/latest/)
+- **Voilà**: [voila.readthedocs.io/en/stable/using.html](https://voila.readthedocs.io/en/stable/using.html)
+- **Fast Dash**: [github.com/dkedar7/fast_dash](https://github.com/dkedar7/fast_dash)
+- **Streamlit**: [github.com/streamlit/streamlit](https://github.com/streamlit/streamlit)
+- **Gradio**: [github.com/gradio-app/gradio](https://github.com/gradio-app/gradio)
+
+## Other
+- **Scipy schedule**: [www.scipy2025.scipy.org/schedule](https://www.scipy2025.scipy.org/schedule)

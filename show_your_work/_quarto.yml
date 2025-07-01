@@ -15,6 +15,8 @@ website:
           - setup.qmd
       - section: "Core Concepts (coming soon)"
       - section: "Best Practices (coming soon)"
+      - links.qmd
+      - libraries.qmd
 
 format:
   html:

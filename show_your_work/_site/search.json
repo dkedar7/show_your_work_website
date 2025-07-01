@@ -140,5 +140,85 @@
       "Getting Started",
       "Getting set up"
     ]
+  },
+  {
+    "objectID": "links.html",
+    "href": "links.html",
+    "title": "Important links",
+    "section": "",
+    "text": "This page provides a curated list of important links and resources required for the tutorial. You will find references to the tutorial website, source material, essential software, and required Python libraries to help you get started and follow along effectively.",
+    "crumbs": [
+      "Important links"
+    ]
+  },
+  {
+    "objectID": "links.html#section",
+    "href": "links.html#section",
+    "title": "Important links",
+    "section": "",
+    "text": "Tutorial website (this): https://showyourwork.web.app/\nTutotial material: github.com/dkedar7/show_your_work\nQuarto: quarto.org/docs/get-started\nGoogle Cloud CLI: cloud.google.com/sdk/docs/install\nFast Dash: github.com/dkedar7/fast_dash",
+    "crumbs": [
+      "Important links"
+    ]
+  },
+  {
+    "objectID": "links.html#tutorial-dependencies",
+    "href": "links.html#tutorial-dependencies",
+    "title": "Important links",
+    "section": "Tutorial dependencies",
+    "text": "Tutorial dependencies\n\nTutorial website (this): showyourwork.web.app\nTutotial material: github.com/dkedar7/show_your_work\nPython: https://www.python.org/downloads\nQuarto: quarto.org/docs/get-started\nGoogle Cloud CLI: cloud.google.com/sdk/docs/install",
+    "crumbs": [
+      "Important links"
+    ]
+  },
+  {
+    "objectID": "links.html#required-libraries",
+    "href": "links.html#required-libraries",
+    "title": "Important links",
+    "section": "Required libraries",
+    "text": "Required libraries\n\nJupyter Widgets: ipywidgets.readthedocs.io/en/latest\nVoilà: voila.readthedocs.io/en/stable/using.html\nFast Dash: github.com/dkedar7/fast_dash\nStreamlit: github.com/streamlit/streamlit\nGradio: github.com/gradio-app/gradio",
+    "crumbs": [
+      "Important links"
+    ]
+  },
+  {
+    "objectID": "links.html#other",
+    "href": "links.html#other",
+    "title": "Important links",
+    "section": "Other",
+    "text": "Other\n\nScipy schedule: www.scipy2025.scipy.org/schedule",
+    "crumbs": [
+      "Important links"
+    ]
+  },
+  {
+    "objectID": "libraries.html",
+    "href": "libraries.html",
+    "title": "Notable mentions",
+    "section": "",
+    "text": "Streamlit - https://streamlit.io/\nDash - https://dash.plotly.com/\nFlask - https://flask.palletsprojects.com/\nDjango - https://www.djangoproject.com/\nFastAPI - https://fastapi.tiangolo.com/\nGradio - https://gradio.app/\nPanel - https://panel.holoviz.org/\nVoilà - https://voila.readthedocs.io/\nBokeh - https://bokeh.org/\nPlotly Dash - https://plotly.com/dash/\nQuarto - https://quarto.org/\n\n\n\n\n\nTaipy - https://taipy.io/\nVizro - https://vizro.readthedocs.io/\nAnvil - https://anvil.works/\nFunix - https://funix.io/\nSolara - https://solara.dev/\nShiny for Python - https://shiny.posit.co/py/\nNicegui - https://nicegui.io/\nReflex - https://reflex.dev/\nMesop - https://google.github.io/mesop/\nMarimo - https://marimo.io/\nJustpy - https://justpy.io/\nPywebio - https://pywebio.readthedocs.io/\nH2O Wave - https://wave.h2o.ai/\nPynecone - https://pynecone.io/\nFlet - https://flet.dev/\nBrython - https://brython.info/\nPyScript - https://pyscript.net/\nPyramid - https://trypyramid.com/\nBottle - https://bottlepy.org/\nSanic - https://sanic.dev/\nQuart - https://pgjones.gitlab.io/quart/\nStarlette - https://www.starlette.io/\nFalcon - https://falcon.readthedocs.io/\nCherryPy - https://cherrypy.dev/",
+    "crumbs": [
+      "Notable mentions"
+    ]
+  },
+  {
+    "objectID": "libraries.html#popularmainstream-frameworks",
+    "href": "libraries.html#popularmainstream-frameworks",
+    "title": "Notable mentions",
+    "section": "",
+    "text": "Streamlit - https://streamlit.io/\nDash - https://dash.plotly.com/\nFlask - https://flask.palletsprojects.com/\nDjango - https://www.djangoproject.com/\nFastAPI - https://fastapi.tiangolo.com/\nGradio - https://gradio.app/\nPanel - https://panel.holoviz.org/\nVoilà - https://voila.readthedocs.io/\nBokeh - https://bokeh.org/\nPlotly Dash - https://plotly.com/dash/\nQuarto - https://quarto.org/",
+    "crumbs": [
+      "Notable mentions"
+    ]
+  },
+  {
+    "objectID": "libraries.html#lesser-known-promising-frameworks",
+    "href": "libraries.html#lesser-known-promising-frameworks",
+    "title": "Notable mentions",
+    "section": "",
+    "text": "Taipy - https://taipy.io/\nVizro - https://vizro.readthedocs.io/\nAnvil - https://anvil.works/\nFunix - https://funix.io/\nSolara - https://solara.dev/\nShiny for Python - https://shiny.posit.co/py/\nNicegui - https://nicegui.io/\nReflex - https://reflex.dev/\nMesop - https://google.github.io/mesop/\nMarimo - https://marimo.io/\nJustpy - https://justpy.io/\nPywebio - https://pywebio.readthedocs.io/\nH2O Wave - https://wave.h2o.ai/\nPynecone - https://pynecone.io/\nFlet - https://flet.dev/\nBrython - https://brython.info/\nPyScript - https://pyscript.net/\nPyramid - https://trypyramid.com/\nBottle - https://bottlepy.org/\nSanic - https://sanic.dev/\nQuart - https://pgjones.gitlab.io/quart/\nStarlette - https://www.starlette.io/\nFalcon - https://falcon.readthedocs.io/\nCherryPy - https://cherrypy.dev/",
+    "crumbs": [
+      "Notable mentions"
+    ]
   }
 ]

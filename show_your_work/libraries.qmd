@@ -1,0 +1,46 @@
+---
+title: "Notable mentions"
+---
+
+# Python Frameworks for Interactive Web Applications
+
+## Popular/Mainstream Frameworks
+
+- **Streamlit** - https://streamlit.io/
+- **Dash** - https://dash.plotly.com/
+- **Flask** - https://flask.palletsprojects.com/
+- **Django** - https://www.djangoproject.com/
+- **FastAPI** - https://fastapi.tiangolo.com/
+- **Gradio** - https://gradio.app/
+- **Panel** - https://panel.holoviz.org/
+- **Voilà** - https://voila.readthedocs.io/
+- **Bokeh** - https://bokeh.org/
+- **Plotly Dash** - https://plotly.com/dash/
+- **Quarto** - https://quarto.org/
+
+## Lesser-Known Promising Frameworks
+
+- **Taipy** - https://taipy.io/
+- **Vizro** - https://vizro.readthedocs.io/
+- **Anvil** - https://anvil.works/
+- **Funix** - https://funix.io/
+- **Solara** - https://solara.dev/
+- **Shiny for Python** - https://shiny.posit.co/py/
+- **Nicegui** - https://nicegui.io/
+- **Reflex** - https://reflex.dev/
+- **Mesop** - https://google.github.io/mesop/
+- **Marimo** - https://marimo.io/
+- **Justpy** - https://justpy.io/
+- **Pywebio** - https://pywebio.readthedocs.io/
+- **H2O Wave** - https://wave.h2o.ai/
+- **Pynecone** - https://pynecone.io/
+- **Flet** - https://flet.dev/
+- **Brython** - https://brython.info/
+- **PyScript** - https://pyscript.net/
+- **Pyramid** - https://trypyramid.com/
+- **Bottle** - https://bottlepy.org/
+- **Sanic** - https://sanic.dev/
+- **Quart** - https://pgjones.gitlab.io/quart/
+- **Starlette** - https://www.starlette.io/
+- **Falcon** - https://falcon.readthedocs.io/
+- **CherryPy** - https://cherrypy.dev/
