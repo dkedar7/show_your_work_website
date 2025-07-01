@@ -1,0 +1,54 @@
+---
+title: "Getting set up"
+---
+
+::: {.callout-note}
+You are not required to run these steps before the tutorial. 
+We will set aside some time during the tutorial to get everyone set up.
+:::
+
+### Using Nebari (coming soon)
+
+Nebari instructions
+
+
+### Install locally
+
+We'll required Python for this tutorial. You can download it [here](https://www.python.org/downloads/).
+
+1. Clone the Github repo and install dependencies
+
+```bash
+git clone https://github.com/dkedar7/show_your_work
+```
+
+2. Install dependencies
+
+Open the repo with your favorite text editor
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Launch Jupyter Lab to follow along
+
+```bash
+jupyter lab
+```
+
+### Test your setup
+
+Launch a new Jupyter notebook, and run the following cell
+
+```python
+from fast_dash import fastdash
+
+@fastdash
+def simple_app(text: str):
+    output_text = "This is my first Fast Dash app!"
+    return output_text
+```
+
+::: {.callout-note}
+If you have any questions or feedback, please email me at [kdabhadk@gmail.com](mailto:kdabhadk@gmail.com).
+:::

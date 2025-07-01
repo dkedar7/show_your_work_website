@@ -12,23 +12,11 @@ website:
       - section: "Getting Started"
         contents:
           - index.qmd
-          - installation.qmd
-      - section: "Core Concepts"
-        contents:
-          - concepts/fundamentals.qmd
-          - concepts/advanced.qmd
-      - section: "Practical Examples"
-        contents:
-          - examples/basic-example.qmd
-          - examples/complex-example.qmd
-      - section: "Best Practices"
-        contents:
-          - best-practices/guidelines.qmd
-          - best-practices/troubleshooting.qmd
-      - section: "Reference"
-        contents:
-          - reference/api.qmd
-          - reference/faq.qmd
+          - setup.qmd
+      - section: "Core Concepts (coming soon)"
+      - section: "Practical Examples (coming soon)"
+      - section: "Best Practices (coming soon)"
+      - section: "Reference (coming soon)"
       - about.qmd
 
 format:

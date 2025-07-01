@@ -1,12 +1,13 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "setup.html",
+    "href": "setup.html",
+    "title": "Getting set up",
     "section": "",
-    "text": "About this site",
+    "text": "Note\n\n\n\nYou are not required to run these steps before the tutorial. We will set aside some time during the tutorial to get everyone set up.\n\n\n\nUsing Nebari (coming soon)\nNebari instructions\n\n\nInstall locally\nWe’ll required Python for this tutorial. You can download it here.\n\nClone the Github repo and install dependencies\n\ngit clone https://github.com/dkedar7/show_your_work\n\nInstall dependencies\n\nOpen the repo with your favorite text editor\npip install -r requirements.txt\n\nLaunch Jupyter Lab to follow along\n\njupyter lab\n\n\nTest your setup\nLaunch a new Jupyter notebook, and run the following cell\nfrom fast_dash import fastdash\n\n@fastdash\ndef simple_app(text: str):\n    output_text = \"This is my first Fast Dash app!\"\n    return output_text\n\n\n\n\n\n\nNote\n\n\n\nIf you have any questions or feedback, please email me at kdabhadk@gmail.com.",
     "crumbs": [
-      "About"
+      "Getting Started",
+      "Getting set up"
     ]
   },
   {
@@ -15,39 +16,6 @@
     "title": "Show your work: Tutorial on building and hosting web applications",
     "section": "",
     "text": "📅 July 8, 2024 | 08:00–12:00 (US/Pacific) | Ballroom C",
-    "crumbs": [
-      "Getting Started",
-      "Show your work: Tutorial on building and hosting web applications"
-    ]
-  },
-  {
-    "objectID": "index.html#what-youll-learn",
-    "href": "index.html#what-youll-learn",
-    "title": "Show your work: Tutorial on building and hosting web applications",
-    "section": "What You’ll Learn",
-    "text": "What You’ll Learn\nThroughout this tutorial, you’ll discover:\n\nCore principles of transparent work practices\nPractical techniques for documenting your process\nTools and methods for sharing your work effectively\nBest practices for collaboration and reproducibility",
-    "crumbs": [
-      "Getting Started",
-      "Show your work: Tutorial on building and hosting web applications"
-    ]
-  },
-  {
-    "objectID": "index.html#how-to-use-this-tutorial",
-    "href": "index.html#how-to-use-this-tutorial",
-    "title": "Show your work: Tutorial on building and hosting web applications",
-    "section": "How to Use This Tutorial",
-    "text": "How to Use This Tutorial\nThis tutorial is organized into several sections accessible through the sidebar:\n\nGetting Started\nBegin here to understand the fundamental concepts and set up your environment.\n\n\nCore Concepts\nDive deeper into the theoretical foundations and key principles.\n\n\nPractical Examples\nSee real-world applications and hands-on demonstrations.\n\n\nBest Practices\nLearn from common pitfalls and proven strategies.\n\n\nReference\nQuick access to APIs, FAQs, and additional resources.",
-    "crumbs": [
-      "Getting Started",
-      "Show your work: Tutorial on building and hosting web applications"
-    ]
-  },
-  {
-    "objectID": "index.html#ready-to-begin",
-    "href": "index.html#ready-to-begin",
-    "title": "Show your work: Tutorial on building and hosting web applications",
-    "section": "Ready to Begin?",
-    "text": "Ready to Begin?\nStart with the Getting Started section to begin your journey, or use the sidebar navigation to jump to any section that interests you.\n\nThis tutorial emphasizes learning by doing. Each section includes practical exercises and examples to help you apply what you learn.",
     "crumbs": [
       "Getting Started",
       "Show your work: Tutorial on building and hosting web applications"
@@ -131,11 +99,11 @@
     ]
   },
   {
-    "objectID": "index.html#meet-your-instructors",
-    "href": "index.html#meet-your-instructors",
+    "objectID": "index.html#meet-your-instructor",
+    "href": "index.html#meet-your-instructor",
     "title": "Show your work: Tutorial on building and hosting web applications",
-    "section": "Meet Your Instructors",
-    "text": "Meet Your Instructors\nOur teaching team brings over five years of experience building and deploying data solutions at major scientific organizations. We’ve seen firsthand how the right tools can transform complex analysis into compelling, accessible applications that drive real-world impact.",
+    "section": "Meet Your Instructor",
+    "text": "Meet Your Instructor\nOur teaching team brings over five years of experience building and deploying data solutions at major scientific organizations. We’ve seen firsthand how the right tools can transform complex analysis into compelling, accessible applications that drive real-world impact.",
     "crumbs": [
       "Getting Started",
       "Show your work: Tutorial on building and hosting web applications"
@@ -153,25 +121,13 @@
     ]
   },
   {
-    "objectID": "installation.html",
-    "href": "installation.html",
-    "title": "Installation",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Steps to install",
+    "text": "About this site",
     "crumbs": [
-      "Getting Started",
-      "Installation"
-    ]
-  },
-  {
-    "objectID": "index.html#meet-your-instructor",
-    "href": "index.html#meet-your-instructor",
-    "title": "Show your work: Tutorial on building and hosting web applications",
-    "section": "Meet Your Instructor",
-    "text": "Meet Your Instructor\nOur teaching team brings over five years of experience building and deploying data solutions at major scientific organizations. We’ve seen firsthand how the right tools can transform complex analysis into compelling, accessible applications that drive real-world impact.",
-    "crumbs": [
-      "Getting Started",
-      "Show your work: Tutorial on building and hosting web applications"
+      "About"
     ]
   }
 ]
