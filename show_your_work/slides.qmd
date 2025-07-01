@@ -1,0 +1,151 @@
+---
+title: "Show your work"
+subtitle: "Tutorial on building and hosting web applications <br> Scipy 2025"
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    logo: assets/logo.png
+    css: styles.css
+    footer: '[https://showyourwork.web.app](https://showyourwork.web.app)'
+resources:
+  - demo.pdf
+---
+
+## About me
+
+<img src="https://dkedar.com/assets/me.png" alt="Instructor Photo" style="width:120px; border-radius:50%; margin-bottom:10px;" />
+
+- Data scientist at Lam Research
+- Deployed **>50 web applications** for my teams and colleagues at work, friends and family
+- Authored Fast Dash
+
+## About me
+
+<img src="https://dkedar.com/assets/me.png" alt="Instructor Photo" style="width:120px; border-radius:50%; margin-bottom:10px;" />
+
+- 🏆 First prize: Water Data Prize (2021) - mapping category
+- Showcased on Plotly examples page
+- Microsoft Certified Data Scientist and Databricks Certified Data Engineer
+
+## Story
+
+![](assets/story/story1.png)
+
+---
+
+## Story
+
+![](assets/story/story2.png)
+
+---
+
+## Story
+
+![](assets/story/story3.png)
+
+---
+
+## Story
+
+![](assets/story/story4.png)
+
+---
+
+## Story
+
+![](assets/story/story5.png)
+
+---
+
+## Story
+
+![](assets/story/story6.png)
+
+---
+
+## Story
+
+![](assets/story/story7.png)
+
+---
+
+## Story
+
+![](assets/story/story8.png)
+
+---
+
+## Story
+
+![](assets/story/story9.png)
+
+---
+
+## Story
+
+![](assets/story/story10.png)
+
+---
+
+## Story
+
+![](assets/story/story11.png)
+
+---
+
+## Story
+
+![](assets/story/story12.png)
+
+---
+
+## Story
+
+![](assets/story/story13.png)
+
+---
+
+## Story
+
+![](assets/story/story14.png)
+
+---
+
+## Story
+
+![](assets/story/story15.png)
+
+---
+
+## Story
+
+![](assets/story/story16.png)
+
+---
+
+## Story
+
+![](assets/story/story17.png)
+
+---
+
+## Story
+
+![](assets/story/story18.png)
+
+---
+
+## Story
+
+![](assets/story/story19.png)
+
+---
+
+## Story
+
+![](assets/story/story20.png)
+
+---
