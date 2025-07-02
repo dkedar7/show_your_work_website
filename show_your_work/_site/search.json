@@ -4,7 +4,7 @@
     "href": "setup.html",
     "title": "Getting set up",
     "section": "",
-    "text": "Note\n\n\n\nYou are highly encouraged to run these steps before the tutorial. We will also set aside some time during the tutorial to get everyone set up.\n\n\nDuring this tutorial, we’ll use Quarto to aggregate our apps (app store) and Google Cloud Run to host them (optional). So, you will need to install Quarto and the gcloud CLI (optional). Google Cloud is only needed if you want to share your apps over the internet.\n\nInstall Quarto:\nFollow the instructions at quarto.org/docs/get-started.\nInstall Google Cloud CLI (optional):\nFollow the instructions at cloud.google.com/sdk/docs/install.\nInstall tutorial files and install Python environment: Either install locally (recommended) or use Nebari (instructions to follow soon).\n\n\nInstall Python enviornment locally (recommended)\nWe’ll required Python 3.9+ for this tutorial. You can download it here.\n\nClone the Github repo and install dependencies\n\ngit clone https://github.com/dkedar7/show_your_work\n\nInstall dependencies\n\nOpen the repo with your favorite text editor, create a virtual environment and install dependencies.\ncd show_your_work\npython -m venv .venv\n\nsource .venv/bin/activate # For Linux and MacOS\n.venv\\Scripts\\activate # For Windows\n\npip install -r requirements.txt\n\nLaunch Jupyter Lab to follow along\n\njupyter lab\n\n\nUsing Nebari (coming soon)\nNebari instructions\n\n\nTest your setup\nLaunch a new Jupyter notebook, and run the following cell\nfrom fast_dash import fastdash\n\n@fastdash\ndef simple_app(text: str):\n    output_text = \"This is my first Fast Dash app!\"\n    return output_text\n\n\n\n\n\n\nNote\n\n\n\nIf you have any questions or feedback, please email me at kdabhadk@gmail.com.",
+    "text": "Note\n\n\n\nYou are highly encouraged to run these steps before the tutorial. We will also set aside some time during the tutorial to get everyone set up.\n\n\nDuring this tutorial, we’ll use Quarto to aggregate our apps (app store) and Google Cloud Run to host them (optional). So, you will need to install Quarto and the gcloud CLI (optional). Google Cloud is only needed if you want to share your apps over the internet.\n\nInstall Quarto:\nFollow the instructions at quarto.org/docs/get-started.\nInstall Google Cloud CLI (optional):\nFollow the instructions at cloud.google.com/sdk/docs/install.\nCreate a HuggingFace account (optional):\nGo to huggingface.co/new-space.\nInstall tutorial files and install Python environment: Install locally using the instructions below\n\n\n\n\n\n\n\nSetup Python environment locally\n\n\n\nWe’ll required Python 3.9+ for this tutorial. You can download it here.\n\nClone the Github repo and install dependencies\n\ngit clone https://github.com/dkedar7/show_your_work\n\nInstall dependencies\n\nOpen the repo with your favorite text editor, create a virtual environment and install dependencies.\ncd show_your_work\npython -m venv .venv\n\nsource .venv/bin/activate # For Linux and MacOS\n.venv\\Scripts\\activate # For Windows\n\npip install -r requirements.txt\n\nAdd environment to Jupyter kernel list\n\npython -m ipykernel install --user --name=\"showyourwork\"\n\nLaunch Jupyter Lab to follow along\n\njupyter lab\n\n\n\nTest your setup\nLaunch a new Jupyter notebook, and run the following cell\nfrom fast_dash import fastdash\n\n@fastdash\ndef simple_app(text: str):\n    output_text = \"This is my first Fast Dash app!\"\n    return output_text\n\n\n\n\n\n\nNote\n\n\n\nIf you have any questions or feedback, please email me at kdabhadk@gmail.com.",
     "crumbs": [
       "Getting Started",
       "Getting set up"
@@ -59,7 +59,7 @@
     "href": "index.html#what-well-cover",
     "title": "Show your work: Tutorial on building and hosting web applications",
     "section": "What We’ll Cover",
-    "text": "What We’ll Cover\n\nFramework Landscape\nCompare and contrast the leading Python web frameworks:\n\nStreamlit - Rapid prototyping\nGradio - Machine learning interfaces\n\nShiny - Statistical applications\nQuarto - Document-driven apps\n\n\nFast Dash Deep Dive\nLearn to use this library designed specifically for rapid prototyping:\n\nConvert functions to web apps with minimal code\nHandle complex data visualization seamlessly\nDeploy professional-grade applications quickly",
+    "text": "What We’ll Cover\n\nFramework Landscape\nCompare and contrast the leading Python web frameworks:\n\nJupyter and Voila -\nStreamlit\nGradio\nFast Dash\nQuarto\n\n\nFast Dash Deep Dive\nLearn to use this library designed specifically for rapid prototyping:\n\nConvert functions to web apps with minimal code\nHandle complex data visualization seamlessly\nDeploy professional-grade applications quickly",
     "crumbs": [
       "Getting Started",
       "Show your work: Tutorial on building and hosting web applications"
@@ -449,6 +449,87 @@
     "text": "Story",
     "crumbs": [
       "Show your work"
+    ]
+  },
+  {
+    "objectID": "introduction.html",
+    "href": "introduction.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "The tutorial title draws inspiration from Austin Kleon’s book “Show your work” and my own journey in web development. After building dozens of applications for research and industry, I’ve learned that the most impactful work is the work that gets shared, used, and built upon by others.\n\nIt sounds a little extreme, but in this day and age, if your work isn’t online, it doesn’t exist. We all have the opportunity to use our voices, to have our say, but so many of us are wasting it. If you want people to know about what you do and the things you care about, you have to share.\n\nThroughout this tutorial, I’ll share examples from my app portfolio and show you exactly what you can expect to build—from simple data visualizations to interactive research tools that colleagues actually want to use.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "introduction.html#inspiration",
+    "href": "introduction.html#inspiration",
+    "title": "Introduction",
+    "section": "",
+    "text": "The tutorial title draws inspiration from Austin Kleon’s book “Show your work” and my own journey in web development. After building dozens of applications for research and industry, I’ve learned that the most impactful work is the work that gets shared, used, and built upon by others.\n\nIt sounds a little extreme, but in this day and age, if your work isn’t online, it doesn’t exist. We all have the opportunity to use our voices, to have our say, but so many of us are wasting it. If you want people to know about what you do and the things you care about, you have to share.\n\nThroughout this tutorial, I’ll share examples from my app portfolio and show you exactly what you can expect to build—from simple data visualizations to interactive research tools that colleagues actually want to use.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "introduction.html#web-apps-matter-for-your-work",
+    "href": "introduction.html#web-apps-matter-for-your-work",
+    "title": "Introduction",
+    "section": "Web apps matter for your work",
+    "text": "Web apps matter for your work\nBuilding web applications isn’t just about coding; it’s about communication. When you transform your analysis from a static report into an interactive experience, several powerful things happen:\n\nInspires more communication, confidence, and trust\nInteractive applications let stakeholders explore your work themselves. When colleagues can adjust parameters, filter data, and see results change in real-time, they develop deeper understanding and confidence in your methods.\n\n\nSpeeds up your projects\nInstead of generating dozens of static plots for different scenarios, create one interactive dashboard that generates insights on demand. What used to take hours of back-and-forth emails now happens in minutes of exploration.\n\n\nBrings clarity of thought\nBuilding an interface forces you to think clearly about your work—much like writing. You must organize your logic, anticipate user needs, and structure your analysis in ways that make sense to others. This process often reveals insights you missed in the original analysis.\n\n\nIncreases accessibility and adoption\nWeb applications remove barriers to using your work. Colleagues don’t need Python installed, don’t need to understand your code, and don’t need to recreate your environment. They just click a link and explore.\n\nRemember: Work not shown is work lost. Showing your work in this context isn’t about showing off—it’s about better communication and broader impact.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "introduction.html#tutorial-focus-research-ready-applications",
+    "href": "introduction.html#tutorial-focus-research-ready-applications",
+    "title": "Introduction",
+    "section": "Tutorial Focus: Research-Ready Applications",
+    "text": "Tutorial Focus: Research-Ready Applications\nThis tutorial focuses on what I call Research-Ready Applications—the sweet spot between quick prototypes and enterprise software. These correspond to Levels 0-2 in the web application maturity framework:\n\nThe 5 Levels of Web Application Maturity\n\n\n\n\n\n\n\n\n\n\nLevel\nDescription\nTimeline\nUsers\nPurpose\n\n\n\n\n0\nExploratory Scripts\nHours-Days\n1 (you)\nPersonal analysis\n\n\n1\nHobby Projects\nDays-Weeks\n1-5\nLearning, sharing with close colleagues\n\n\n2\nProof-of-Concept\nWeeks-Months\n5-50\nValidate ideas, secure funding\n\n\n3\nInternal Production\nMonths-Years\n50-500\nRegular use by research community\n\n\n4\nPublic Production\nYears+\n500+\nServe broader scientific community\n\n\n\n\n\nWhy focus on levels 0-2?\nEvery successful application starts here. Even the most sophisticated research platforms (Levels 3-5) must first prove their value through effective prototypes. This tutorial teaches you to build applications that:\n\nDemonstrate your ideas effectively\nConvince stakeholders and collaborators\n\nSecure funding and support\nProvide the foundation for larger projects\n\n\n\nTwo common mistakes to avoid\nOver-engineering: Building Level 4 infrastructure when you need Level 2 functionality - Don’t spend months setting up Kubernetes clusters for a research demo - Avoid enterprise authentication systems for internal team tools - Skip complex databases when CSV files work fine\nUnder-engineering: Using Level 1 tools when you have Level 3+ requirements\n- Don’t use Jupyter notebooks for department-wide dashboards - Avoid personal prototyping tools for external stakeholder presentations - Don’t ignore security for applications handling sensitive data\nThe key is matching your tool to your actual needs, not your aspirational requirements.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "introduction.html#what-youll-learn",
+    "href": "introduction.html#what-youll-learn",
+    "title": "Introduction",
+    "section": "What You’ll Learn",
+    "text": "What You’ll Learn\nBy the end of this tutorial, you’ll be able to:\n\nChoose the right Python framework for your specific needs\nBuild interactive dashboards that colleagues actually use\nDeploy applications that work reliably for your research community\nAvoid common pitfalls that derail scientific software projects\nTransform static analyses into engaging, explorable experiences",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "introduction.html#conclusion",
+    "href": "introduction.html#conclusion",
+    "title": "Introduction",
+    "section": "Conclusion",
+    "text": "Conclusion\nWork not seen is work lost. In our interconnected research environment, the most brilliant analysis has no impact if it remains locked in personal notebooks or buried in static reports.\nWeb applications aren’t just tools—they’re trust builders. When you make your work interactive and accessible, you invite collaboration, demonstrate transparency, and make it easy for others to build on your ideas.\nYour research deserves to be seen, understood, and used. Let’s build applications that make that happen.\n\nReady to transform your research from hidden work to shared impact? Let’s start building.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "introduction.html#what-well-learn",
+    "href": "introduction.html#what-well-learn",
+    "title": "Introduction",
+    "section": "What we’ll Learn",
+    "text": "What we’ll Learn\nBy the end of this tutorial, we’ll be able to:\n\nChoose the right Python framework for your specific needs\nBuild interactive dashboards that colleagues actually use\nDeploy applications that work reliably for your research community\nAvoid common pitfalls that derail scientific software projects\nTransform static analyses into engaging, explorable experiences",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "setup.html#install-python-environment-locally-recommended",
+    "href": "setup.html#install-python-environment-locally-recommended",
+    "title": "Getting set up",
+    "section": "Install Python environment locally (recommended)",
+    "text": "Install Python environment locally (recommended)\nWe’ll require Python 3.9+ for this tutorial. You can download it here.\n\nClone the Github repo and install dependencies\n\n\nUsing Nebari (coming soon)\nNebari instructions\n\n\nTest your setup\nLaunch a new Jupyter notebook, and run the following cell\nfrom fast_dash import fastdash\n\n@fastdash\ndef simple_app(text: str):\n    output_text = \"This is my first Fast Dash app!\"\n    return output_text\n\n\n\n\n\n\nNote\n\n\n\nIf you have any questions or feedback, please email me at kdabhadk@gmail.com.",
+    "crumbs": [
+      "Getting Started",
+      "Getting set up"
     ]
   }
 ]

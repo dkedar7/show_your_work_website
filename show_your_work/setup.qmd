@@ -15,11 +15,14 @@ During this tutorial, we'll use **Quarto** to aggregate our apps (app store) and
 - **Install Google Cloud CLI (optional):**  
     Follow the instructions at [cloud.google.com/sdk/docs/install](https://cloud.google.com/sdk/docs/install).
 
+- **Create a HuggingFace account (optional):**  
+    Go to [huggingface.co/new-space](https://huggingface.co/new-space).
+
 - **Install tutorial files and install Python environment:**
-    Either install locally (recommended) or use Nebari (instructions to follow soon).
+    Install locally using the instructions below
 
-
-### Install Python enviornment locally (recommended)
+::: {.callout-note}
+### Setup Python environment locally
 
 We'll required Python 3.9+ for this tutorial. You can download it [here](https://www.python.org/downloads/).
 
@@ -43,15 +46,19 @@ source .venv/bin/activate # For Linux and MacOS
 pip install -r requirements.txt
 ```
 
-3. **Launch Jupyter Lab to follow along**
+3. **Add environment to Jupyter kernel list**
+
+```bash
+python -m ipykernel install --user --name="showyourwork"
+```
+
+4. **Launch Jupyter Lab to follow along**
 
 ```bash
 jupyter lab
 ```
+:::
 
-### Using Nebari (coming soon)
-
-Nebari instructions
 
 ### Test your setup
 

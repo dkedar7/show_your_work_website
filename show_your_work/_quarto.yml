@@ -13,8 +13,9 @@ website:
         contents:
           - index.qmd
           - setup.qmd
+      - introduction.qmd
+      
       - section: "Core Concepts (coming soon)"
-      - section: "Best Practices (coming soon)"
       - title: "Slides"
         file: slides.qmd
       - links.qmd

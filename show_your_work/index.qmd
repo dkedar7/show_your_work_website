@@ -31,10 +31,11 @@ By the end of this 4-hour tutorial, you will have:
 
 Compare and contrast the leading Python web frameworks:
 
-- **Streamlit** - Rapid prototyping
-- **Gradio** - Machine learning interfaces  
-- **Shiny** - Statistical applications
-- **Quarto** - Document-driven apps
+- **Jupyter and Voila** - 
+- **Streamlit**
+- **Gradio**
+- **Fast Dash**
+- **Quarto**
 
 #### Fast Dash Deep Dive
 

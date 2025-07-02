@@ -164,18 +164,32 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
       </ul>
   </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <span class="sidebar-item-text sidebar-link text-start">
  <span class="menu-text">Core Concepts (coming soon)</span></span>
   </li>
-        <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">Best Practices (coming soon)</span></span>
-  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./slides.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Show your work</span></a>
+  </div>
+</li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./links.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Important links</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./libraries.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Notable mentions</span></a>
   </div>
 </li>
     </ul>
@@ -188,9 +202,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#install-python-enviornment-locally-recommended" id="toc-install-python-enviornment-locally-recommended" class="nav-link active" data-scroll-target="#install-python-enviornment-locally-recommended">Install Python enviornment locally (recommended)</a></li>
-  <li><a href="#using-nebari-coming-soon" id="toc-using-nebari-coming-soon" class="nav-link" data-scroll-target="#using-nebari-coming-soon">Using Nebari (coming soon)</a></li>
-  <li><a href="#test-your-setup" id="toc-test-your-setup" class="nav-link" data-scroll-target="#test-your-setup">Test your setup</a></li>
+  <li><a href="#test-your-setup" id="toc-test-your-setup" class="nav-link active" data-scroll-target="#test-your-setup">Test your setup</a></li>
   </ul>
 </nav>
     </div>
@@ -235,10 +247,20 @@ Note
 Follow the instructions at <a href="https://quarto.org/docs/get-started/">quarto.org/docs/get-started</a>.</p></li>
 <li><p><strong>Install Google Cloud CLI (optional):</strong><br>
 Follow the instructions at <a href="https://cloud.google.com/sdk/docs/install">cloud.google.com/sdk/docs/install</a>.</p></li>
-<li><p><strong>Install tutorial files and install Python environment:</strong> Either install locally (recommended) or use Nebari (instructions to follow soon).</p></li>
+<li><p><strong>Create a HuggingFace account (optional):</strong><br>
+Go to <a href="https://huggingface.co/new-space">huggingface.co/new-space</a>.</p></li>
+<li><p><strong>Install tutorial files and install Python environment:</strong> Install locally using the instructions below</p></li>
 </ul>
-<section id="install-python-enviornment-locally-recommended" class="level3">
-<h3 class="anchored" data-anchor-id="install-python-enviornment-locally-recommended">Install Python enviornment locally (recommended)</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Setup Python environment locally
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>We’ll required Python 3.9+ for this tutorial. You can download it <a href="https://www.python.org/downloads/">here</a>.</p>
 <ol type="1">
 <li><strong>Clone the Github repo and install dependencies</strong></li>
@@ -256,23 +278,24 @@ Follow the instructions at <a href="https://cloud.google.com/sdk/docs/install">c
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install <span class="at">-r</span> requirements.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ol start="3" type="1">
+<li><strong>Add environment to Jupyter kernel list</strong></li>
+</ol>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-m</span> ipykernel install <span class="at">--user</span> <span class="at">--name</span><span class="op">=</span><span class="st">"showyourwork"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ol start="4" type="1">
 <li><strong>Launch Jupyter Lab to follow along</strong></li>
 </ol>
-<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">jupyter</span> lab</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="using-nebari-coming-soon" class="level3">
-<h3 class="anchored" data-anchor-id="using-nebari-coming-soon">Using Nebari (coming soon)</h3>
-<p>Nebari instructions</p>
-</section>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">jupyter</span> lab</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
 <section id="test-your-setup" class="level3">
 <h3 class="anchored" data-anchor-id="test-your-setup">Test your setup</h3>
 <p>Launch a new Jupyter notebook, and run the following cell</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> fast_dash <span class="im">import</span> fastdash</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="at">@fastdash</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> simple_app(text: <span class="bu">str</span>):</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    output_text <span class="op">=</span> <span class="st">"This is my first Fast Dash app!"</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> output_text</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> fast_dash <span class="im">import</span> fastdash</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="at">@fastdash</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> simple_app(text: <span class="bu">str</span>):</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    output_text <span class="op">=</span> <span class="st">"This is my first Fast Dash app!"</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> output_text</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
