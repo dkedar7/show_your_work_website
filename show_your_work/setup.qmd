@@ -7,7 +7,9 @@ You are highly encouraged to run these steps before the tutorial.
 We will also set aside some time during the tutorial to get everyone set up.
 :::
 
-During this tutorial, we'll use **Quarto** to aggregate our apps (app store) and **Google Cloud Run** to host them (optional). So, you will need to install Quarto and the `gcloud` CLI (optional). Google Cloud is only needed if you want to share your apps over the internet.
+During this tutorial, we'll use **Quarto** to aggregate our apps (app store) and **HuggingFace Spaces** to deploy them. Please sign up for a HuggingFace account.
+
+We will also review **Google Cloud Run** for hosting (optional). If you wish to follow along, please install `gcloud` CLI (optional).
 
 - **Install Quarto:**  
     Follow the instructions at [quarto.org/docs/get-started](https://quarto.org/docs/get-started/).
