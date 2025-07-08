@@ -15,7 +15,7 @@ website:
           - setup.qmd
       - introduction.qmd
       
-      - section: "Core Concepts (coming soon)"
+      - concepts.qmd
       - title: "Slides"
         file: slides.qmd
       - links.qmd

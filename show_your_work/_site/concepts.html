@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Show your work: Tutorial on building and hosting web applications – Show Your Work - Tutorial</title>
+<title>Core concepts – Show Your Work - Tutorial</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -116,7 +116,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Getting Started</a></li><li class="breadcrumb-item"><a href="./index.html">Show your work: Tutorial on building and hosting web applications</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./concepts.html">Core concepts</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -152,7 +152,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Show your work: Tutorial on building and hosting web applications</span></a>
   </div>
 </li>
@@ -172,7 +172,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./concepts.html" class="sidebar-item-text sidebar-link">
+  <a href="./concepts.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Core concepts</span></a>
   </div>
 </li>
@@ -204,28 +204,52 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#welcome-to-the-tutorial" id="toc-welcome-to-the-tutorial" class="nav-link active" data-scroll-target="#welcome-to-the-tutorial">Welcome to the Tutorial!</a></li>
-  <li><a href="#what-youll-accomplish" id="toc-what-youll-accomplish" class="nav-link" data-scroll-target="#what-youll-accomplish">What You’ll Accomplish</a></li>
-  <li><a href="#what-well-cover" id="toc-what-well-cover" class="nav-link" data-scroll-target="#what-well-cover">What We’ll Cover</a>
+  <li><a href="#general-view-of-web-app-deployment" id="toc-general-view-of-web-app-deployment" class="nav-link active" data-scroll-target="#general-view-of-web-app-deployment">General view of web app deployment</a></li>
+  <li><a href="#building-a-web-app" id="toc-building-a-web-app" class="nav-link" data-scroll-target="#building-a-web-app">Building a web app</a></li>
+  <li><a href="#python-dashboard-framework-scoring-analysis" id="toc-python-dashboard-framework-scoring-analysis" class="nav-link" data-scroll-target="#python-dashboard-framework-scoring-analysis">Python Dashboard Framework Scoring Analysis</a>
   <ul class="collapse">
-  <li><a href="#framework-landscape" id="toc-framework-landscape" class="nav-link" data-scroll-target="#framework-landscape">Framework Landscape</a></li>
-  </ul></li>
-  <li><a href="#who-should-attend" id="toc-who-should-attend" class="nav-link" data-scroll-target="#who-should-attend">Who Should Attend</a></li>
-  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisites</a>
+  <li><a href="#framework-performance-matrix" id="toc-framework-performance-matrix" class="nav-link" data-scroll-target="#framework-performance-matrix">Framework Performance Matrix</a></li>
+  <li><a href="#deploying-an-app" id="toc-deploying-an-app" class="nav-link" data-scroll-target="#deploying-an-app">Deploying an app</a></li>
+  <li><a href="#docker-for-packaging-and-deployment" id="toc-docker-for-packaging-and-deployment" class="nav-link" data-scroll-target="#docker-for-packaging-and-deployment">Docker for packaging and deployment</a></li>
+  <li><a href="#simple-steps-in-deploying-a-python-app" id="toc-simple-steps-in-deploying-a-python-app" class="nav-link" data-scroll-target="#simple-steps-in-deploying-a-python-app">Simple steps in deploying a Python app</a></li>
+  <li><a href="#local-development-setup" id="toc-local-development-setup" class="nav-link" data-scroll-target="#local-development-setup">1. Local Development Setup</a>
   <ul class="collapse">
-  <li><a href="#required-installation" id="toc-required-installation" class="nav-link" data-scroll-target="#required-installation">Required Installation</a></li>
+  <li><a href="#create-a-your-app" id="toc-create-a-your-app" class="nav-link" data-scroll-target="#create-a-your-app">Create a your app</a></li>
+  <li><a href="#create-requirements-file" id="toc-create-requirements-file" class="nav-link" data-scroll-target="#create-requirements-file">Create Requirements File</a></li>
   </ul></li>
-  <li><a href="#bring-your-own-data" id="toc-bring-your-own-data" class="nav-link" data-scroll-target="#bring-your-own-data">Bring Your Own Data</a></li>
-  <li><a href="#meet-your-instructor" id="toc-meet-your-instructor" class="nav-link" data-scroll-target="#meet-your-instructor">Meet Your Instructor</a></li>
+  <li><a href="#dockerize-the-application" id="toc-dockerize-the-application" class="nav-link" data-scroll-target="#dockerize-the-application">2. Dockerize the Application</a>
+  <ul class="collapse">
+  <li><a href="#create-dockerfile" id="toc-create-dockerfile" class="nav-link" data-scroll-target="#create-dockerfile">Create Dockerfile</a></li>
+  <li><a href="#test-locally" id="toc-test-locally" class="nav-link" data-scroll-target="#test-locally">Test Locally</a></li>
+  </ul></li>
+  <li><a href="#version-control-with-git" id="toc-version-control-with-git" class="nav-link" data-scroll-target="#version-control-with-git">3. Version Control with Git</a>
+  <ul class="collapse">
+  <li><a href="#initialize-git-repository" id="toc-initialize-git-repository" class="nav-link" data-scroll-target="#initialize-git-repository">Initialize Git Repository</a></li>
+  <li><a href="#push-to-remote-repository" id="toc-push-to-remote-repository" class="nav-link" data-scroll-target="#push-to-remote-repository">Push to Remote Repository</a></li>
+  </ul></li>
+  <li><a href="#server-deployment" id="toc-server-deployment" class="nav-link" data-scroll-target="#server-deployment">4. Server Deployment</a>
+  <ul class="collapse">
+  <li><a href="#upload-code-to-server" id="toc-upload-code-to-server" class="nav-link" data-scroll-target="#upload-code-to-server">Upload Code to Server</a></li>
+  <li><a href="#build-and-run-on-server" id="toc-build-and-run-on-server" class="nav-link" data-scroll-target="#build-and-run-on-server">Build and Run on Server</a></li>
+  <li><a href="#check-container-status" id="toc-check-container-status" class="nav-link" data-scroll-target="#check-container-status">Check Container Status</a></li>
+  </ul></li>
+  <li><a href="#production-considerations" id="toc-production-considerations" class="nav-link" data-scroll-target="#production-considerations">Production Considerations</a>
+  <ul class="collapse">
+  <li><a href="#security" id="toc-security" class="nav-link" data-scroll-target="#security">Security</a></li>
+  <li><a href="#monitoring" id="toc-monitoring" class="nav-link" data-scroll-target="#monitoring">Monitoring</a></li>
+  <li><a href="#updates" id="toc-updates" class="nav-link" data-scroll-target="#updates">Updates</a></li>
+  </ul></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Getting Started</a></li><li class="breadcrumb-item"><a href="./index.html">Show your work: Tutorial on building and hosting web applications</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Show your work: Tutorial on building and hosting web applications</h1>
+<h1 class="title">Core concepts</h1>
 </div>
 
 
@@ -242,109 +266,328 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p><strong>📅 Tuesday, July 8, 2025 | 08:00–12:00 (US/Pacific) | Ballroom C</strong></p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>For setup instructions and environment details, see <a href="./setup.html">setup</a> instructions.</p>
-</div>
-</div>
+<section id="general-view-of-web-app-deployment" class="level3">
+<h3 class="anchored" data-anchor-id="general-view-of-web-app-deployment">General view of web app deployment</h3>
+<ul>
+<li>We always start with a use-case</li>
+<li>Depending on the use-case and other factors (discussed below), we choose the right tool to build the app</li>
+<li>Apps are deployed to servers (local or remote)</li>
+<li>There could be an app store (portfolio or gallery) that consolidates URLs of all the other apps. This may be deployed to the same servers as the other apps.</li>
+</ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="assets/spectralindices.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>Show Your Work Tutorial</figcaption>
+<p><img src="https://storage.googleapis.com/eyes_in_the_sky/deployment_1.svg" class="img-fluid figure-img"></p>
+<figcaption>General deployment</figcaption>
 </figure>
 </div>
-<section id="welcome-to-the-tutorial" class="level2">
-<h2 class="anchored" data-anchor-id="welcome-to-the-tutorial">Welcome to the Tutorial!</h2>
-<p>Transform your Python functions into interactive web applications and ensure your scientific work reaches the audience it deserves. In this hands-on session, you’ll learn to bridge the gap between analysis and presentation using modern, open-source tools—all without leaving the Python ecosystem.</p>
-</section>
-<section id="what-youll-accomplish" class="level2">
-<h2 class="anchored" data-anchor-id="what-youll-accomplish">What You’ll Accomplish</h2>
-<p>By the end of this 4-hour tutorial, you will have:</p>
+<section id="for-this-tutorial" class="level4">
+<h4 class="anchored" data-anchor-id="for-this-tutorial">For this tutorial</h4>
 <ul>
-<li><strong>Built and deployed</strong> multiple interactive web applications</li>
-<li><strong>Created a personal app store/portfolio</strong></li>
-<li><strong>Gained practical experience</strong> building and deploying web applications</li>
-<li><strong>Developed reproducible workflows</strong> you can apply to future projects</li>
+<li>HuggingFace and Google Cloud to host our apps</li>
+<li>Quarto as the app store</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://storage.googleapis.com/eyes_in_the_sky/deployment_2.svg" class="img-fluid figure-img"></p>
+<figcaption>Deployment for this tutorial</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="building-a-web-app" class="level2">
+<h2 class="anchored" data-anchor-id="building-a-web-app">Building a web app</h2>
+<p>Building a Python web app involves answering these “<strong>Why</strong>”, “<strong>What</strong>” and “<strong>How</strong>” questions:</p>
+<ul>
+<li>What’s my objective? (<strong>Why?</strong>)
+<ul>
+<li>For example,
+<ul>
+<li>Share an idea with my team or community</li>
+<li>Showcase what my code can do</li>
+<li>Wireframe a new feature</li>
+<li>Show off dvertise my abilities on my website and resume</li>
+</ul></li>
+</ul></li>
+<li>What do I want to communicate? (<strong>What?</strong>)
+<ul>
+<li>For example,
+<ul>
+<li>The impact of rising global temperatures on drinking water quality</li>
+<li>My grasp of LLM concepts</li>
+<li>Track data quality or SW error rates</li>
+</ul></li>
+</ul></li>
+<li>Which tool stack should I use (<strong>How?</strong>)
+<ul>
+<li>What’s the expected turnaround time? (ease of development)</li>
+<li>What’s the available UI component library? (capability)</li>
+<li>How many users? (scalability)</li>
+<li>How frequently will we alter the scope? (maintenance)</li>
+<li>How will people access it? (ease of deployment)</li>
+</ul></li>
 </ul>
 </section>
-<section id="what-well-cover" class="level2">
-<h2 class="anchored" data-anchor-id="what-well-cover">What We’ll Cover</h2>
-<section id="framework-landscape" class="level3">
-<h3 class="anchored" data-anchor-id="framework-landscape">Framework Landscape</h3>
-<p>Compare and contrast the leading Python web frameworks:</p>
+<section id="python-dashboard-framework-scoring-analysis" class="level1">
+<h1>Python Dashboard Framework Scoring Analysis</h1>
+<section id="framework-performance-matrix" class="level2">
+<h2 class="anchored" data-anchor-id="framework-performance-matrix">Framework Performance Matrix</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 17%">
+<col style="width: 14%">
+<col style="width: 17%">
+<col style="width: 12%">
+<col style="width: 11%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Framework</th>
+<th>Development Speed</th>
+<th>UI Components</th>
+<th>User Scalability</th>
+<th>Maintenance</th>
+<th>Deployment</th>
+<th>Overall Score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Streamlit</strong></td>
+<td>7</td>
+<td>8</td>
+<td>6</td>
+<td>7</td>
+<td>9</td>
+<td><strong>7.4</strong></td>
+</tr>
+<tr class="even">
+<td><strong>Gradio</strong></td>
+<td>8</td>
+<td>8</td>
+<td>7</td>
+<td>7</td>
+<td>9</td>
+<td><strong>7.8</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>Plotly Dash</strong></td>
+<td>5</td>
+<td>10</td>
+<td>9</td>
+<td>8</td>
+<td>9</td>
+<td><strong>8.2</strong></td>
+</tr>
+<tr class="even">
+<td><strong>Python Shiny</strong></td>
+<td>6</td>
+<td>7.5</td>
+<td>8</td>
+<td>8</td>
+<td>9</td>
+<td><strong>7.7</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>Jupyter Widgets/Voila</strong></td>
+<td>9</td>
+<td>9</td>
+<td>5</td>
+<td>5</td>
+<td>7</td>
+<td><strong>7.0</strong></td>
+</tr>
+<tr class="even">
+<td><strong>Fast Dash</strong></td>
+<td>10</td>
+<td>10</td>
+<td>5</td>
+<td>6</td>
+<td>9</td>
+<td><strong>8.0</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="deploying-an-app" class="level2">
+<h2 class="anchored" data-anchor-id="deploying-an-app">Deploying an app</h2>
 <ul>
-<li><strong>Jupyter and Voila</strong> -</li>
-<li><strong>Streamlit</strong></li>
-<li><strong>Gradio</strong></li>
-<li><strong>Fast Dash</strong></li>
-<li><strong>Quarto</strong></li>
+<li>Package your app code, data, configuration</li>
+<li>Send to a server (local or remote)</li>
+<li>Configure so users can access</li>
 </ul>
-<section id="fast-dash-deep-dive" class="level4">
-<h4 class="anchored" data-anchor-id="fast-dash-deep-dive">Fast Dash Deep Dive</h4>
-<p>Learn to use this library designed specifically for rapid prototyping:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://spaceflightnow.com/wp-content/uploads/2020/03/49702731826_11bbd0609f_k.jpg" class="img-fluid figure-img"></p>
+<figcaption>image</figcaption>
+</figure>
+</div>
+<p>There are many ways your app data can be sent to a server, dependencies installed and the execution script run. A universal way to deploy is to containerize the application with Docker and then deploy it to an endpoint.</p>
+</section>
+<section id="docker-for-packaging-and-deployment" class="level2">
+<h2 class="anchored" data-anchor-id="docker-for-packaging-and-deployment">Docker for packaging and deployment</h2>
+<p>Docker is an open-source platform that automates the deployment, scaling, and management of applications using containerization. Containers package an application and its dependencies together, ensuring consistency across different environments. This makes it easier to develop, ship, and run applications reliably.</p>
 <ul>
-<li>Convert functions to web apps with minimal code</li>
-<li>Handle complex data visualization seamlessly</li>
-<li>Deploy professional-grade applications quickly</li>
+<li><strong>Consistency</strong>: Same environment across dev, staging, and production</li>
+<li><strong>Isolation</strong>: Dependencies don’t conflict with host system</li>
+<li><strong>Portability</strong>: Deploy anywhere Docker runs</li>
+<li><strong>Scalability</strong>: Easy horizontal scaling with orchestration</li>
 </ul>
 </section>
+<section id="simple-steps-in-deploying-a-python-app" class="level2">
+<h2 class="anchored" data-anchor-id="simple-steps-in-deploying-a-python-app">Simple steps in deploying a Python app</h2>
+<ol type="1">
+<li><strong>Local Development</strong> → Create and test your app</li>
+<li><strong>Dockerization</strong> → Package app with dependencies</li>
+<li><strong>Version Control</strong> → Track changes with Git</li>
+<li><strong>Server Deployment</strong> → Clone and run on remote server</li>
+</ol>
+</section>
+<section id="local-development-setup" class="level2">
+<h2 class="anchored" data-anchor-id="local-development-setup">1. Local Development Setup</h2>
+<section id="create-a-your-app" class="level3">
+<h3 class="anchored" data-anchor-id="create-a-your-app">Create a your app</h3>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># app.py</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> fast_dash <span class="im">import</span> FastDash</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> simple_text_to_text(input_text: <span class="bu">str</span>) <span class="op">-&gt;</span> <span class="bu">str</span>:</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> input_text</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>app <span class="op">=</span> FastDash(simple_text_to_text)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">'__main__'</span>:</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    app.run()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="create-requirements-file" class="level3">
+<h3 class="anchored" data-anchor-id="create-requirements-file">Create Requirements File</h3>
+<pre><code># requirements.txt
+fast-dash==0.2.13</code></pre>
 </section>
 </section>
-<section id="who-should-attend" class="level2">
-<h2 class="anchored" data-anchor-id="who-should-attend">Who Should Attend</h2>
-<p>This tutorial is designed for data professionals who want to amplify the impact of their work:</p>
+<section id="dockerize-the-application" class="level2">
+<h2 class="anchored" data-anchor-id="dockerize-the-application">2. Dockerize the Application</h2>
+<section id="create-dockerfile" class="level3">
+<h3 class="anchored" data-anchor-id="create-dockerfile">Create Dockerfile</h3>
+<div class="sourceCode" id="cb3"><pre class="sourceCode dockerfile code-with-copy"><code class="sourceCode dockerfile"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span> python:3.11-slim</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="kw">WORKDIR</span> /app</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Copy requirements first for better caching</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="kw">COPY</span> requirements.txt .</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="kw">RUN</span> <span class="ex">pip</span> install <span class="at">--no-cache-dir</span> <span class="at">-r</span> requirements.txt</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Copy application code</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="kw">COPY</span> . .</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Expose port</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="kw">EXPOSE</span> 5000</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Run the application</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="kw">CMD</span> [<span class="st">"python"</span>, <span class="st">"app.py"</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="test-locally" class="level3">
+<h3 class="anchored" data-anchor-id="test-locally">Test Locally</h3>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Build the image</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> build <span class="at">-t</span> my-app .</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Run the container</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> run <span class="at">-p</span> 5000:5000 my-app</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Visit <code>http://localhost:5000</code> to test your app.</p>
+</section>
+</section>
+<section id="version-control-with-git" class="level2">
+<h2 class="anchored" data-anchor-id="version-control-with-git">3. Version Control with Git</h2>
+<section id="initialize-git-repository" class="level3">
+<h3 class="anchored" data-anchor-id="initialize-git-repository">Initialize Git Repository</h3>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> init</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Initial commit: my app with Docker"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="push-to-remote-repository" class="level3">
+<h3 class="anchored" data-anchor-id="push-to-remote-repository">Push to Remote Repository</h3>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> remote add origin <span class="op">&lt;</span>your-repo-url<span class="op">&gt;</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push <span class="at">-u</span> origin main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+</section>
+<section id="server-deployment" class="level2">
+<h2 class="anchored" data-anchor-id="server-deployment">4. Server Deployment</h2>
+<section id="upload-code-to-server" class="level3">
+<h3 class="anchored" data-anchor-id="upload-code-to-server">Upload Code to Server</h3>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># SSH into your server</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ssh</span> user@your-server-ip</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Clone your repository</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone <span class="op">&lt;</span>your-repo-url<span class="op">&gt;</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> your-app-directory</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="build-and-run-on-server" class="level3">
+<h3 class="anchored" data-anchor-id="build-and-run-on-server">Build and Run on Server</h3>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Build the Docker image</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> build <span class="at">-t</span> my-app .</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Run the container in detached mode</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> run <span class="at">-d</span> <span class="at">-p</span> 80:5000 <span class="at">--name</span> my-app</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="check-container-status" class="level3">
+<h3 class="anchored" data-anchor-id="check-container-status">Check Container Status</h3>
+<div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># List running containers</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> ps</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="co"># View logs</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> logs my-app</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+</section>
+<section id="production-considerations" class="level2">
+<h2 class="anchored" data-anchor-id="production-considerations">Production Considerations</h2>
+<section id="security" class="level3">
+<h3 class="anchored" data-anchor-id="security">Security</h3>
 <ul>
-<li><strong>Scientists and Researchers</strong> looking to make their analysis more accessible</li>
-<li><strong>Data Engineers</strong> building tools for their teams<br>
-</li>
-<li><strong>Analysts</strong> who want to move beyond static reports</li>
-<li><strong>Anyone</strong> with Python experience efficient communication of technical work</li>
+<li>Use environment variables for sensitive data</li>
+<li>Configure firewall rules</li>
+<li>Use HTTPS with SSL certificates</li>
 </ul>
 </section>
-<section id="prerequisites" class="level2">
-<h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
-<p>Before the session, please ensure you have:</p>
+<section id="monitoring" class="level3">
+<h3 class="anchored" data-anchor-id="monitoring">Monitoring</h3>
 <ul>
-<li><strong>Python 3.9+</strong> installed on your system</li>
-<li><strong>Basic Python programming</strong> familiarity</li>
-<li><strong>Code editor or IDE</strong> of your choice</li>
-<li><strong>Git</strong> installed for accessing tutorial materials</li>
+<li>Monitor container resources</li>
+<li>Container health check</li>
 </ul>
-<section id="required-installation" class="level3">
-<h3 class="anchored" data-anchor-id="required-installation">Required Installation</h3>
-<p>Run this command before the tutorial:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install fast-dash streamlit gradio</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="updates" class="level3">
+<h3 class="anchored" data-anchor-id="updates">Updates</h3>
+<div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Pull latest code</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> pull origin main</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Rebuild and redeploy</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> build <span class="at">-t</span> my-app .</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> stop my-app</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> rm my-app</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> run <span class="at">-d</span> <span class="at">-p</span> 80:5000 <span class="at">--name</span> my-app</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 </section>
-<section id="bring-your-own-data" class="level2">
-<h2 class="anchored" data-anchor-id="bring-your-own-data">Bring Your Own Data</h2>
-<p>While I’ll provide example datasets and use cases, you’re encouraged to bring your own:</p>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
 <ul>
-<li><strong>Datasets</strong> you’re currently analyzing</li>
-<li><strong>Functions</strong> you’d like to turn into web apps</li>
-<li><strong>Specific use cases</strong> from your domain</li>
-<li><strong>Visualization challenges</strong> you’re facing</li>
+<li>Before building your web app, ask:
+<ul>
+<li>Why?: Objective of the exercise</li>
+<li>What?: KPIs/metrics, insights, datasets</li>
+<li>How?: Select the correct tools</li>
+</ul></li>
+<li>To build a complete deployment pipeline:</li>
 </ul>
-</section>
-<section id="meet-your-instructor" class="level2">
-<h2 class="anchored" data-anchor-id="meet-your-instructor">Meet Your Instructor</h2>
-<p><strong>Kedar Dabhadkar</strong></p>
-<p><img src="https://dkedar.com/assets/me.png" alt="Instructor Photo" style="width:120px; border-radius:50%; margin-bottom:10px;"></p>
-<p>I am a Data scientist at Lam Research with &gt;6 years of experience in statistical data analysis, engineering, and machine learning. I’ve built and deployed over 50 web applications for my teams and colleagues at work, friends and family. I built Fast Dash, an open-source Python library that transforms Python functions into interactive web applications.</p>
-<p><a href="https://www.linkedin.com/in/dkedar7/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" style="width:32px; vertical-align:middle; margin-right:8px;"> </a></p>
-<hr>
-<p><strong>Questions?</strong> Feel free to reach out during the session or connect with fellow participants. If you have any questions or feedback, please email me at <a href="mailto:kdabhadk@gmail.com">kdabhadk@gmail.com</a>.</p>
+<ol type="1">
+<li><strong>Local Development</strong> → Create and test your app</li>
+<li><strong>Dockerization</strong> → Package app with dependencies</li>
+<li><strong>Version Control</strong> → Track changes with Git</li>
+<li><strong>Server Deployment</strong> → Clone and run on remote server</li>
+</ol>
+<p>Docker ensures consistency across environments and simplifies deployment management.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

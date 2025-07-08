@@ -2,7 +2,7 @@
 title: "Show your work: Tutorial on building and hosting web applications"
 ---
 
-**📅 Tuesday, July 8, 2024 | 08:00–12:00 (US/Pacific) | Ballroom C**
+**📅 Tuesday, July 8, 2025 | 08:00–12:00 (US/Pacific) | Ballroom C**
 
 ::: {.callout-note}
 For setup instructions and environment details, see [setup](setup.qmd) instructions.
@@ -81,6 +81,8 @@ While I'll provide example datasets and use cases, you're encouraged to bring yo
 - **Visualization challenges** you're facing
 
 ## Meet Your Instructor
+
+**Kedar Dabhadkar**
 
 <img src="https://dkedar.com/assets/me.png" alt="Instructor Photo" style="width:120px; border-radius:50%; margin-bottom:10px;" />
 
