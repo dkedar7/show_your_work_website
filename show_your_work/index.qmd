@@ -24,6 +24,8 @@ By the end of this 4-hour tutorial, you will have:
 - **Gained practical experience** building and deploying web applications
 - **Developed reproducible workflows** you can apply to future projects
 
+For example: [https://dkedar7.quarto.pub/my-web-app-gallery/](https://dkedar7.quarto.pub/my-web-app-gallery/)
+
 
 ## What We'll Cover
 
@@ -31,7 +33,7 @@ By the end of this 4-hour tutorial, you will have:
 
 Compare and contrast the leading Python web frameworks:
 
-- **Jupyter and Voila** - 
+- **Jupyter widgets and Voila** - 
 - **Streamlit**
 - **Gradio**
 - **Fast Dash**

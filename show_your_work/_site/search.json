@@ -447,7 +447,7 @@
     "href": "index.html#what-youll-accomplish",
     "title": "Show your work: Tutorial on building and hosting web applications",
     "section": "What You’ll Accomplish",
-    "text": "What You’ll Accomplish\nBy the end of this 4-hour tutorial, you will have:\n\nBuilt and deployed multiple interactive web applications\nCreated a personal app store/portfolio\nGained practical experience building and deploying web applications\nDeveloped reproducible workflows you can apply to future projects",
+    "text": "What You’ll Accomplish\nBy the end of this 4-hour tutorial, you will have:\n\nBuilt and deployed multiple interactive web applications\nCreated a personal app store/portfolio\nGained practical experience building and deploying web applications\nDeveloped reproducible workflows you can apply to future projects\n\nFor example: https://dkedar7.quarto.pub/my-web-app-gallery/",
     "crumbs": [
       "Getting Started",
       "Show your work: Tutorial on building and hosting web applications"
@@ -458,7 +458,7 @@
     "href": "index.html#what-well-cover",
     "title": "Show your work: Tutorial on building and hosting web applications",
     "section": "What We’ll Cover",
-    "text": "What We’ll Cover\n\nFramework Landscape\nCompare and contrast the leading Python web frameworks:\n\nJupyter and Voila -\nStreamlit\nGradio\nFast Dash\nQuarto\n\n\nFast Dash Deep Dive\nLearn to use this library designed specifically for rapid prototyping:\n\nConvert functions to web apps with minimal code\nHandle complex data visualization seamlessly\nDeploy professional-grade applications quickly",
+    "text": "What We’ll Cover\n\nFramework Landscape\nCompare and contrast the leading Python web frameworks:\n\nJupyter widgets and Voila -\nStreamlit\nGradio\nFast Dash\nQuarto\n\n\nFast Dash Deep Dive\nLearn to use this library designed specifically for rapid prototyping:\n\nConvert functions to web apps with minimal code\nHandle complex data visualization seamlessly\nDeploy professional-grade applications quickly",
     "crumbs": [
       "Getting Started",
       "Show your work: Tutorial on building and hosting web applications"
