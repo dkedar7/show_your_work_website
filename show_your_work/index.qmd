@@ -47,14 +47,24 @@ Learn to use this library designed specifically for rapid prototyping:
 - Handle complex data visualization seamlessly
 - Deploy professional-grade applications quickly
 
-## Who Should Attend
+## Schedule
+**08:00 - 08:40**: Introduction, motivation and core concepts <br>
+**08:40 - 08:50**: Getting set up (per [setup](setup.qmd) instructions) <br>
+**08:50 - 09:00**: Break <br>
+---
 
-This tutorial is designed for data professionals who want to amplify the impact of their work:
+**09:00 - 09:15**: Setting up Quarto <br>
+**09:15 - 09:50**: Jupyter, widgets and Voila <br>
+**09:50 - 10:00**: Break <br>
+---
 
-- **Scientists and Researchers** looking to make their analysis more accessible
-- **Data Engineers** building tools for their teams  
-- **Analysts** who want to move beyond static reports
-- **Anyone** with Python experience efficient communication of technical work
+**10:00 - 10:30**: Streamlit and Gradio <br>
+**10:30 - 10:50**: Fast Dash <br>
+**10:50 - 11:00**: Break <br>
+---
+
+**11:00 - 11:20**: More Fast Dash <br>
+**11:20 - 12:00**: Deploy your app gallery and wrap-up
 
 ## Prerequisites
 

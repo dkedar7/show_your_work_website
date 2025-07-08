@@ -465,11 +465,11 @@
     ]
   },
   {
-    "objectID": "index.html#who-should-attend",
-    "href": "index.html#who-should-attend",
+    "objectID": "index.html#schedule",
+    "href": "index.html#schedule",
     "title": "Show your work: Tutorial on building and hosting web applications",
-    "section": "Who Should Attend",
-    "text": "Who Should Attend\nThis tutorial is designed for data professionals who want to amplify the impact of their work:\n\nScientists and Researchers looking to make their analysis more accessible\nData Engineers building tools for their teams\n\nAnalysts who want to move beyond static reports\nAnyone with Python experience efficient communication of technical work",
+    "section": "Schedule",
+    "text": "Schedule\n08:00 - 08:40: Introduction, motivation and core concepts  08:40 - 08:50: Getting set up (per setup instructions)  08:50 - 09:00: Break  —\n09:00 - 09:15: Setting up Quarto  09:15 - 09:50: Jupyter, widgets and Voila  09:50 - 10:00: Break  —\n10:00 - 10:30: Streamlit and Gradio  10:30 - 10:50: Fast Dash  10:50 - 11:00: Break  —\n11:00 - 11:20: More Fast Dash  11:20 - 12:00: Deploy your app gallery and wrap-up",
     "crumbs": [
       "Getting Started",
       "Show your work: Tutorial on building and hosting web applications"
