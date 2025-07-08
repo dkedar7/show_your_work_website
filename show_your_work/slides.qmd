@@ -149,3 +149,10 @@ resources:
 ![](assets/story/story20.png)
 
 ---
+
+
+## Story
+
+![](assets/logo.png)
+
+---
